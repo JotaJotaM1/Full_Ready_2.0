@@ -1,0 +1,29 @@
+
+/* Icons Bootstrap */
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
+
+/* Font cargada en proyecto */
+@font-face {
+  font-family: 'FivoSans';
+  src: url('./assets/fonts/FivoSans-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FivoSans';
+  src: url('./assets/fonts/FivoSans-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  font-family: "Syncopate", sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+

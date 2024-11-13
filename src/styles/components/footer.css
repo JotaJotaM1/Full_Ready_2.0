@@ -1,0 +1,90 @@
+footer {
+    width: 100%;
+    margin-top: 200px;
+    background-color: white;
+}
+
+.footer_nav {
+    padding: 50px;
+}
+
+.cnt-ul-Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.li-Footer a {
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.textFooter {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'FivoSans';
+    color: #4A4A4A;
+    line-height: 19.6px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cnt-UlSocialFooter,
+ul li,
+.textCopy,
+.textTerm {
+    color: black;
+}
+
+.cnt-imgLogoFooter,
+.cnt-SocialIcons,
+.cnt-legalTerm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cnt-UlSocialFooter ul {
+    padding: 20px 0;
+    font-size: 25px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pruebaFooter {
+    border: 1px solid black;
+    padding-bottom: 50px;
+}
+
+.divider {
+    width: 95%;
+    height: 1px;
+    background-color: #DADADA;
+    margin: 15px auto;
+}
+
+.textCopy, .textTerm{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'FivoSans';
+    line-height: 19.6px;
+    color: #4A4A4A;
+}
+.cnt-TerminConditions{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    padding: 15px 0 30px;
+}
+.textTerm{
+    font-weight: 700;
+}

@@ -1,0 +1,115 @@
+.navbar {
+    width: 100%;
+    background-color: #333;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 113px;
+}
+
+.nav_logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.nav_items ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    height: 40%;
+    justify-content: space-around;
+}
+
+ul li a{
+    color: white;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav_toggle {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .nav_items {
+        height: 100vh;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background: #333;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:-webkit-fill-avaible;
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
+    }
+
+    .nav_items.open {
+        transform: translateX(0) !important
+    }
+
+    .nav_toggle {
+        display: flex !important;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .nav_toggle span {
+        width: 30px;
+        height: 4px;
+        background: white;
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+
+    .nav_toggle.open > span:nth-child(1) {
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+
+    .nav_toggle.open > span:nth-child(2) {
+        display: none;
+    }
+
+    .nav_toggle.open > span:nth-child(3) {
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .navbar{
+        gap: 478px;
+    }
+}
+
+
+@media screen and (min-width: 1025px){
+
+    .navbar {
+        gap: 0;
+    }
+
+    .nav_items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .nav_items ul{
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+    }
+
+    .nav_items ul li{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
