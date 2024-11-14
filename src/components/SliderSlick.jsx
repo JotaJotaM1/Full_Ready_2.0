@@ -1,56 +1,42 @@
+import '../styles/components/SliderComponent.css';
 import sliderPorcenta from '../assets/sliderPorcenta.png';
-// import sliderTime from '../assets/sliderTime.png';
 // import sliderHuman from '../assets/sliderHuman.png';
-import '../styles/components/slider.css';
-
-
+// import sliderTime from '../assets/sliderTime.png';
 
 const data = [
     {
-        image: sliderPorcenta,
+        img: sliderPorcenta,
         title: 'BEST SELLER',
         description: 'Nullam auctor dignissim pellentesque tristique quis.',
-        button: 'SHOP NOW',
+        button: 'SHOP NOW'
     },
     // {
-    //     image: sliderTime,
-    //     title: 'Limited Time Discounts',
+    //     img: sliderTime,
+    //     title: 'LIMITED TIME DISCOUNTS',
     //     description: 'Nullam auctor dignissim pellentesque tristique quis.',
-    //     button: 'SHOP NOW',
+    //     button: 'SHOP NOW'
     // },
     // {
-    //     image: sliderHuman,
-    //     title: 'Customer Favorite',
+    //     img: sliderHuman,
+    //     title: 'CUSTOMER FAVORITE',
     //     description: 'Nullam auctor dignissim pellentesque tristique quis.',
-    //     button: 'SHOP NOW',
+    //     button: 'SHOP NOW'
     // },
+];
 
-]
-
-const SliderSlick = () => {
-
+const SliderCard = () => {
     return (
-
-        <div className='cnt-fatherCardSlider'>
-            <div className='cnt-CardSlider'>
-                {data.map((item, index) => (
-                    <div className='cnt-Pcard' key={index}>
-                        <div>
-                            <img src={item.image} alt={item.title} />
-                        </div>
-                        <div>
-                            <h2>{item.title}</h2>
-                            <p>{item.description}</p>
-                        </div>
-                        <div>
-                            <button>{item.button}</button>
-                        </div>
-                    </div>
-                ))}
-            </div>
+        <div className="Cnt-card">
+            {data.map((item, index) => (
+                <div key={index} className="card">
+                    <img src={item.img} alt='imgporce' className="imgIcon" />
+                    <h2 className="titleCard">{item.title}</h2>
+                    <p className="descriptionCard">{item.description}</p>
+                    <button className="btn-shop-nowCard">{item.button}</button>
+                </div>
+            ))}
         </div>
     );
 };
 
-
-export default SliderSlick;
+export default SliderCard;

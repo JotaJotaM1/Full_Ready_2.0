@@ -1,4 +1,3 @@
-import SliderSlick from '../components/SliderSlick'
 import "../styles/pages/Home.css";
 import frasco3 from '../assets/frasco3.png';
 import image7 from '../assets/image7.png';
@@ -7,6 +6,7 @@ import image4 from '../assets/image4.png';
 import image5 from '../assets/image5.png';
 import image6 from '../assets/image6.png';
 import group2 from '../assets/group2.png';
+import SliderSlick from '../components/SliderSlick'
 // import Spline from '@splinetool/react-spline';
 
 const Home = () => {
@@ -70,10 +70,10 @@ const Home = () => {
                         <h2>EXCLUSIVE PROMOTIONS AND DISCOUNTS</h2>
                         <p>Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper.</p>
                     </div>
-                    <div>
-                    </div>
                 </div>
-                <SliderSlick />
+                <div>
+                    <SliderSlick />
+                </div>
             </section>
         </main>
     );

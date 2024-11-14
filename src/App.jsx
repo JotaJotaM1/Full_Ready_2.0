@@ -14,7 +14,7 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route index path="/home" element={<Home />} />
         <Route path="/discover" element={<Discover />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/find-full-ready" element={<FindFullReady />} />
