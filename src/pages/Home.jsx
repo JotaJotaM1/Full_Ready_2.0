@@ -1,17 +1,27 @@
 import "../styles/pages/Home.css";
-import frasco3 from '../assets/frasco3.png';
-import image7 from '../assets/image7.png';
-import image3 from '../assets/image3.png';
-import image4 from '../assets/image4.png';
-import image5 from '../assets/image5.png';
-import image6 from '../assets/image6.png';
-import group2 from '../assets/group2.png';
-import SliderSlick from '../components/SliderSlick'
-// import Spline from '@splinetool/react-spline';
+import {
+    frasco3,
+    image7,
+    image3,
+    image4,
+    image5,
+    image6,
+    group2,
+    step1,
+    step2,
+    step3,
+    step4,
+    ctaTwoOne,
+    ctaTwoTwo,
+    ctaTwoThree,
+} from '../assets/imgHome';
 
 const Home = () => {
     return (
         <main>
+
+            {/* Section One */}
+
             <section className="sectionOne">
                 <div className="cnt-One">
                     <p className="pOne">WELCOME TO</p>
@@ -31,6 +41,9 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Section OTwo */}
+
             <section>
                 <div className="cnt-Two">
                     <div className="cnt-h2">
@@ -61,6 +74,9 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Section Three*/}
+
             <section>
                 <div className="cnt-Three">
                     <div className="cntGroup2">
@@ -72,8 +88,75 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <SliderSlick />
+                    {/* <SliderSlick /> */}
                 </div>
+            </section>
+
+            {/* Section Four */}
+
+            <section>
+                <div className="cnt-stp">
+                    <div>
+                        <h2 className="titlleStep">FOLLOW THESE SIMPLE STEPS FOR THE BEST RESULTS</h2>
+                        <p className="textStep">Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper</p>
+                    </div>
+                    <div>
+                        <div className="cnt-imgStepp">
+                            <img src={step1}></img>
+                            <h3 className="titileImgStep">Step 1</h3>
+                            <p className="textImgStep">Nullam auctor dignissim pelntesque tristique quis.</p>
+                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
+                        </div>
+                        <div className="cnt-imgStepp">
+                            <img src={step2}></img>
+                            <h3 className="titileImgStep">Step 2</h3>
+                            <p className="textImgStep">Nullam auctor dignissim pelntesque tristique quis.</p>
+                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
+                        </div>
+                        <div className="cnt-imgStepp">
+                            <img src={step3}></img>
+                            <h3 className="titileImgStep">Step 3</h3>
+                            <p className="textImgStep">Nullam auctor dignissim pelntesque tristique quis.</p>
+                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
+                        </div>
+                        <div className="cnt-imgStepp">
+                            <img src={step4}></img>
+                            <h3 className="titileImgStep">Step 4</h3>
+                            <p className="textImgStep">Nullam auctor dignissim pelntesque tristique quis.</p>
+                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <button className="btn-step">BUY NOW</button>
+                    </div>
+                </div>
+            </section>
+
+            {/* Section Five */}
+
+            <section>
+                <div className="cnt-callToActionOne">
+                    <h3 className="tittleCTAOne">DISCOVER HOW FULL READY HELPS EACH PERSON</h3>
+                    <p className="textCTAOne">Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper</p>
+                </div>
+            </section>
+
+            {/* Section Six */}
+
+            <section>
+                <div className="cnt-callToActionTwo">
+                    <div className="cnt-titleCtaTwo">
+                        <h3 className="titleCtaTwo">FEATURE HERE</h3>
+                        <p className="textCtaTwo">Dignissim neque pulvinar vestibulum eu iaculis.Et sed enim et hendrerit nunc augue eleifend arcu lectus. Cursus cum sit feugiat at.</p>
+                    </div>
+                    <div className="cnt-imgCtaTwo">
+                        <img src={ctaTwoOne}></img>
+                        <img src={ctaTwoTwo}></img>
+                        <img src={ctaTwoThree}></img>
+                    </div>
+                    <a className="learMcta">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
+                </div>
+
             </section>
         </main>
     );

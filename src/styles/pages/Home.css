@@ -1,3 +1,7 @@
+:root {
+    --centerCNT: dis
+}
+
 .cnt-One {
     margin: 30px;
 }
@@ -44,7 +48,7 @@
     justify-content: center;
 }
 
-.cntBtnOne button {
+.cntBtnOne button, .btn-step {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -77,7 +81,7 @@
 }
 
 .image7 {
-    right: 130px;
+    right: 115px;
     top: 23rem;
     position: absolute;
 }
@@ -89,7 +93,6 @@
 
 .cnt-h2 h2,
 .cnt-h2Exclu h2 {
-    font-family: "Syncopate", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 25.2px;
@@ -211,3 +214,127 @@
 .shop-now:hover {
     background-color: #444;
 }
+
+.cnt-stp,
+.cnt-imgStepp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.cnt-imgStepp{
+    padding: 15px 0;
+}
+.titlleStep{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-align: center;
+    color: black;
+    padding-top: 60px;
+}
+
+.textStep{
+    font-family: 'FivoSans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: center;
+    color: black;
+    padding: 30px 20px;
+}
+.titileImgStep{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14.57px;
+    text-align: center;
+    color: black;
+    padding: 20px 0;
+}
+.textImgStep{
+    font-family: 'FivoSans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16.8px;
+    text-align: center;
+    color: #717171;
+}
+
+.learMoreStep, .learMcta{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #BC00F4;
+    padding: 20px 0;
+}
+
+.btn-step{
+    width: 175px;
+    height: 55px;
+    margin-bottom: 70px;
+}
+.cnt-callToActionOne{
+    background-color: #161428;
+    padding: 40px 20px 30px;
+    text-align: center;
+}
+.tittleCTAOne{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18.74px;
+    color: #FFFFFF;
+}
+.textCTAOne{
+    font-family: 'FivoSans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color:#BCBCBC;
+    padding-top: 20px;
+}
+
+.cnt-callToActionTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../src/assets/bCTAtwo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: -49px;
+    background-position-y: -30px;
+}
+
+.cnt-titleCtaTwo{
+    padding: 40px 0 30px;
+
+}
+.titleCtaTwo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18.74px;
+    letter-spacing: 4%;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.textCtaTwo{
+    font-family: 'FivoSans';
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    padding: 20px 2rem 15px;
+}
+.cnt-imgCtaTwo{
+    display: flex;
+    gap: 20px;
+}
+.learMcta{
+    color: white;
+    padding: 44px 0 63px;
+}
+
