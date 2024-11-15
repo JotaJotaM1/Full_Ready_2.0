@@ -1,4 +1,5 @@
 import "../styles/pages/Home.css";
+import Slider from '../components/Slider'
 import {
     frasco3,
     image7,
@@ -87,9 +88,9 @@ const Home = () => {
                         <p>Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper.</p>
                     </div>
                 </div>
-                <div>
-                    {/* <SliderSlick /> */}
-                </div>
+
+                <Slider />
+
             </section>
 
             {/* Section Four */}

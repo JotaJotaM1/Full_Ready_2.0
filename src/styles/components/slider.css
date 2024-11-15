@@ -1,56 +1,102 @@
-.Cnt-card{
+.cnt-principal{
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
+    top: -143px;
     position: relative;
-    top: -100px;
 }
 
-.card{
+.carousel {
+    max-width: 375px;
     display: flex;
+    justify-content:left;
+    overflow-x:scroll;
+    scroll-snap-type: x proximity;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+.carousel-item {
+    width: 310px;
+    height: 269px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 300px;
-    padding: 35px 20px;
-    text-align: center;
-    background-color: white;
+    font-size: 24px;
 }
-
-.imgIconCard {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.titleCard {
-    font-size: 14px;
-    font-weight: 700;
-    padding: 20px 0;
+.titleCardSlider{
     color: black;
+    font-weight: 700;
+    font-size: 14px;
     line-height: 14.57px;
+    padding: 20px 0;
 }
-
-.descriptionCard {
-    font-family: 'FivoSans', sans-serif;
-    font-size: 18px;
-    color: #717171;
+.descriptionCardSlider{
+    font-family: 'FivoSans';
     font-weight: 400;
-    margin-bottom: 20px;
+    font-size: 18px;
     line-height: 18.9px;
+    text-align: center;
+    color: #717171;
+    padding-bottom: 20px;
+    width: 230px;
 }
-
-.btn-shop-nowCard{
+.btn-shop-nowCardSlider{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-family: "Syncopate", sans-serif;
+    width: 173px;
+    height: 62px;
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
     background-color: #0B000E;
     color: white;
-    padding: 20px 30px;
-    border: none;
+    border: 0.7px solid white;
+}
+
+@media (min-width: 425px){
+    .carousel {
+        max-width: 400px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .carousel {
+        overflow-x: auto;
+        scroll-snap-type: none;
+        scroll-snap-align: none;
+    }
+
+    .carousel {
+        max-width: 717px;
+    }
+
+}
+
+@media (min-width: 1024px){
+    .carousel {
+        max-width: 939px;
+    } 
+
+    .carousel::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+@media (min-width: 1440px){
+    .carousel {
+        max-width: 939px;
+    } 
 }
