@@ -1,8 +1,7 @@
 import "../styles/pages/Home.css";
-import Slider from '../components/Slider'
+import Slider from '../components/Slider';
+import SliderComments from '../components/SliderComments'
 import {
-    frasco3,
-    image7,
     image3,
     image4,
     image5,
@@ -20,28 +19,6 @@ import {
 const Home = () => {
     return (
         <main>
-
-            {/* Section One */}
-
-            <section className="sectionOne">
-                <div className="cnt-One">
-                    <p className="pOne">WELCOME TO</p>
-                    <h1 className="titleOne">FULL READY</h1>
-                    <p className="pTwo">YOUR PARTY PARTNER</p>
-                    <p className="pThree">Discover how Full Ready transforms your night and morning.</p>
-                    <div className="cntBtnOne">
-                        <button>SHOP NOW<i className="bi bi-arrow-right"></i></button>
-                    </div>
-                </div>
-                <div className="cnt-FrasImage">
-                    <div className="cnt-Frasco3">
-                        <img src={frasco3} alt="frasco3"></img>
-                    </div>
-                    <div>
-                        <img className="image7" src={image7} alt="image7"></img>
-                    </div>
-                </div>
-            </section>
 
             {/* Section OTwo */}
 
@@ -88,9 +65,18 @@ const Home = () => {
                         <p>Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper.</p>
                     </div>
                 </div>
-
                 <Slider />
-
+                <div className="cnt-SliderComments">
+                    <div>
+                        <h2 className="titleSliderComments">TESTIMONIALS</h2>
+                        <p className="textSliderComments">Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper</p>
+                    </div>
+                    <div>
+                        <div className="cnt-SliderBackPurple">
+                            <SliderComments />
+                        </div>
+                    </div>
+                </div>
             </section>
 
             {/* Section Four */}

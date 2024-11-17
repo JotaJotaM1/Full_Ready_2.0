@@ -1,94 +1,7 @@
-:root {
-    --centerCNT: dis
-}
-
-.cnt-One {
-    margin: 30px;
-}
-
-.pOne {
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 13.7px;
-    letter-spacing: 10px;
-    text-align: center;
-}
-
-.titleOne {
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 42px;
-    text-align: center;
-    color: white;
-}
-
-.pTwo {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 22px;
-    text-align: center;
-    color: #FB3DD2;
-    padding-bottom: 10px;
-}
-
-.pThree {
-    font-family: 'FivoSans', sans-serif;
-    max-width: 400px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: white;
-    padding-bottom: 11px;
-    text-align: center;
-}
-
-.cntBtnOne {
-    display: flex;
-    justify-content: center;
-}
-
-.cntBtnOne button, .btn-step {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: "Syncopate", sans-serif;
-    width: 225px;
-    height: 62px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 16px;
-    background-color: #0B000E;
-    color: white;
-    padding: 8.49px 33.96px 8.49px 33.96px;
-    border: 0.7px solid white;
-}
-
-.bi-arrow-right {
-    font-size: 23px;
-    padding-left: 10px;
-}
-
-.cnt-Frasco3 {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-}
-
-.cnt-FrasImage {
-    position: relative;
-}
-
-.image7 {
-    right: 115px;
-    top: 23rem;
-    position: absolute;
-}
-
 .cnt-Two {
     padding: 50px 0 16rem;
     background-color: white;
+    padding: 120px 0 16rem;
 }
 
 .cnt-h2 h2,
@@ -337,4 +250,51 @@
     color: white;
     padding: 44px 0 63px;
 }
+
+.cnt-SliderComments{
+    padding-top: 13rem;
+    background-color: white;
+}
+
+.titleSliderComments{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-align: center;
+    color: black
+}
+
+.textSliderComments{
+    font-family: 'FivoSans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: center;
+    color: #4A4A4A;
+    padding: 20px 20px 155px;
+}
+
+.custom-icon2{
+padding: 0;
+font-size: 13px;
+}
+
+.cnt-SliderBackPurple{
+    height: 380px;
+    background: linear-gradient(to bottom, #BA00FF, #8839FE);
+}
+
+.cnt-limitCommets{
+    background-color: #B406FF;
+}
+
+.btnSliderComments{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 15px 6px;
+}
+
+
+
 

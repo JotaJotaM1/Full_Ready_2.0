@@ -1,5 +1,3 @@
-import frasco3 from './frasco3.png';
-import image7 from './image7.png';
 import image3 from './image3.png';
 import image4 from './image4.png';
 import image5 from './image5.png';
@@ -14,8 +12,6 @@ import ctaTwoTwo from './ctaTwoTwo.png';
 import ctaTwoThree from './ctaTwoThree.png';
 
 export {
-    frasco3,
-    image7,
     image3,
     image4,
     image5,
