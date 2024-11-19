@@ -109,6 +109,7 @@ ul li a {
 }
 
 .cnt-Frasco3 {
+    height: 440px;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -121,19 +122,29 @@ ul li a {
 }
 
 .image7 {
-    right: 132px;
-    top: 23rem;
+    right: 105px;
+    top: 19rem;
     position: absolute;
 }
 
+@media screen and (min-width: 425px) {
+    header {
+        height: 46rem;
+    }
+}
+
+
+
 @media screen and (min-width: 768px) {
 
-    header{
+    header {
         height: 54rem;
     }
+
     .navbar {
         gap: 478px;
     }
+
     .pOne {
         font-size: 16px;
         line-height: 21.92px;
@@ -150,14 +161,19 @@ ul li a {
         font-size: 42px;
         line-height: 42px;
     }
+
     .pThree {
         font-size: 22.18px;
         line-height: 22.18px;
     }
 
-    .cntBtnOne button{
+    .cntBtnOne button {
         width: 285px;
         height: 73px;
+    }
+
+    .cnt-Frasco3 {
+        height: 500px;
     }
 
     .image7 {

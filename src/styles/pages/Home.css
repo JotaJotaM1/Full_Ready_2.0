@@ -79,12 +79,14 @@
 }
 
 .cntGroup2 {
+    display: flex;
+    justify-content: center;
     position: absolute;
     top: -9.75rem;
 }
 
 .cntGroup2 img {
-    width: 400px;
+    width: 95%;
 }
 
 .cnt-h2Exclu h2,
@@ -311,6 +313,10 @@
     border: none;
     padding: 15px 6px;
 }
+
+@media screen and (min-width: 400px){
+    
+} 
 
 @media screen and (min-width: 768px) {
 
