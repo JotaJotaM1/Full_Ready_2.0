@@ -14,7 +14,7 @@
 }
 
 .cnt-ImgaAvatarCommets {
-    background-image: url(../../../src/assets/quote.png);
+    background-image: url('./../../src/assets/quote.png');
     background-repeat: no-repeat;
     background-position-x: 50px;
     background-position-y: 40px;

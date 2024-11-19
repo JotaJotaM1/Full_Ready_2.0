@@ -47,7 +47,7 @@ const Home = () => {
                             <p className="p6">LOREM IPSUM DOLOR ET</p>
                         </div>
                     </div>
-                    <div className="cntBtnOne">
+                    <div className="cntBtnOne ctnBtn1024">
                         <button className="btnSectiontwo">SHOP NOW</button>
                     </div>
                 </div>

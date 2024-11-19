@@ -30,7 +30,7 @@ header {
     justify-content: space-around;
 }
 
-ul li a {
+.nav_items ul li a {
     color: white;
     position: relative;
     text-decoration: none;
@@ -134,7 +134,6 @@ ul li a {
 }
 
 
-
 @media screen and (min-width: 768px) {
 
     header {
@@ -182,7 +181,8 @@ ul li a {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
+
     .nav_items {
         height: 100vh;
         position: absolute;
@@ -230,8 +230,11 @@ ul li a {
     }
 }
 
-
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
+    header {
+        height: 45rem;
+        background: linear-gradient(44deg, #5200ff, #ff006c);
+    }
 
     .navbar {
         gap: 0;
@@ -253,6 +256,55 @@ ul li a {
     .nav_items ul li {
         display: flex;
         justify-content: space-between;
+    }
+
+    .cnt-mq1024 {
+        display: flex;
+        padding-top: 70px;
+    }
+
+    .cnt-One {
+        width: 40%;
+        margin: 30px 0 0 13%;
+    }
+
+    .cnt-FrasImage {
+        width: 60%;
+        position: relative;
+    }
+
+    .pOne,
+    .titleOne,
+    .pTwo,
+    .pThree {
+        text-align: left;
+    }
+
+    .cntBtnOne {
+        justify-content: start;
+    }
+
+    .cnt-Frasco3 {
+        height: 630px;
+        background-image: url('../../../src/assets/Group12.png');
+        background-repeat: no-repeat;
+        background-position-x: 110px;
+        background-position-y: 10px;
+        background-size: 534px 454px;
+    }
+
+    .image7 {
+        right: 358px;
+        top: 30rem;
+    }
+
+    .nav_items ul {
+        width: 660px;
+    }
+
+    .nav_items ul li a {
+        font-size: 12px;
+        line-height: 12.49px;
     }
 
 }

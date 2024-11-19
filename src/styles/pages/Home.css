@@ -432,3 +432,24 @@
         padding-bottom: 30px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .cnt-fatherImgCard {
+        padding: 30px 70px;
+    }
+    .ctnBtn1024 {
+        justify-content: center;
+        padding: 30px 0 50px;
+    }
+    .titlleStep {
+        padding: 60px 133px 0;
+    }
+    .cnt-callToActionTwo {
+        height: 375px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+    }
+
+}
