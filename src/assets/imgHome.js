@@ -10,7 +10,9 @@ import step4 from './step4.png';
 import ctaTwoOne from './ctaTwoOne.png';
 import ctaTwoTwo from './ctaTwoTwo.png';
 import ctaTwoThree from './ctaTwoThree.png';
-import arrowStepOne from './arrowStepOne.png'
+import arrowStepOne from './arrowStepOne.png';
+import frasco3 from '../assets/frasco3.png';
+import image7 from '../assets/image7.png';
 
 export {
     image3,
@@ -25,5 +27,7 @@ export {
     ctaTwoOne,
     ctaTwoTwo,
     ctaTwoThree,
-    arrowStepOne
+    arrowStepOne,
+    frasco3,
+    image7,
 };

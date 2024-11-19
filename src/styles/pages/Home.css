@@ -1,3 +1,93 @@
+.sectionOne {
+    background: linear-gradient(135deg, #5200ff, #ff00ff);
+    background-size: cover;
+}
+
+.cnt-One {
+    padding-top: 70px;
+}
+
+.pOne {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.7px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.titleOne {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+}
+
+.pTwo {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #FB3DD2;
+    padding-bottom: 10px;
+}
+
+.pThree {
+    font-family: 'FivoSans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+    padding-bottom: 11px;
+}
+
+.cntBtnOne {
+    display: flex;
+    justify-content: center;
+}
+
+.cntBtnOne button,
+.btn-step {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Syncopate", sans-serif;
+    width: 225px;
+    height: 62px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: #0B000E;
+    color: white;
+    padding: 8.49px 33.96px 8.49px 33.96px;
+    border: 0.7px solid white;
+}
+
+.bi-arrow-right {
+    font-size: 23px;
+    padding-left: 10px;
+}
+
+.cnt-Frasco3 {
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -20px;
+}
+
+.cnt-FrasImage {
+    position: relative;
+}
+
+.image7 {
+    right: 108px;
+    top: 22rem;
+    position: absolute;
+}
+
 .cnt-Two {
     padding: 50px 0 16rem;
     background-color: white;
@@ -318,9 +408,48 @@
     padding: 15px 6px;
 }
 
-@media screen and (min-width: 400px) {}
+@media screen and (min-width: 425px) {
+    .image7 {
+        right: 130px;
+    }
+}
 
 @media screen and (min-width: 768px) {
+    .pOne {
+        font-size: 16px;
+        line-height: 21.92px;
+        letter-spacing: 11px;
+
+    }
+
+    .titleOne {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .pTwo {
+        font-size: 42px;
+        line-height: 42px;
+    }
+
+    .pThree {
+        font-size: 22.18px;
+        line-height: 22.18px;
+    }
+
+    .cntBtnOne button {
+        width: 285px;
+        height: 73px;
+    }
+
+    .cnt-Frasco3 {
+        height: 500px;
+    }
+
+    .image7 {
+        right: 290px;
+        top: 26rem;
+    }
 
     .cnt-h2 h2,
     .cnt-h2Exclu h2 {
@@ -437,6 +566,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .sectionOne {
+        background: linear-gradient(44deg, #5200ff, #ff006c);
+    }
+
     .cnt-fatherImgCard {
         padding: 30px 70px;
     }
@@ -474,9 +607,83 @@
         margin: 2% 0 0 8%;
     }
 
+    .cnt-mq1024 {
+        display: flex;
+        padding-top: 70px;
+    }
+
+    .cnt-One {
+        width: 40%;
+        margin: 30px 0 0 13%;
+    }
+
+    .cnt-FrasImage {
+        width: 60%;
+        position: relative;
+    }
+
+    .pOne,
+    .titleOne,
+    .pTwo,
+    .pThree {
+        text-align: left;
+    }
+
+    .cntBtnOne {
+        justify-content: start;
+    }
+
+    .cnt-Frasco3 {
+        height: 630px;
+        background-image: url('../../../src/assets/Group12.png');
+        background-repeat: no-repeat;
+        background-position-x: 110px;
+        background-position-y: 10px;
+        background-size: 534px 454px;
+    }
+
+    .image7 {
+        right: 358px;
+        top: 34rem;
+    }
+
+    .nav_items ul {
+        width: 660px;
+    }
+
+    .nav_items ul li a {
+        font-size: 12px;
+        line-height: 12.49px;
+    }
+
+
 }
 
 @media screen and (min-width: 1440px) {
+    .cnt-One {
+        width: 70%;
+        margin: 70px 0 0 13%;
+    }
+
+    .pThree {
+        padding-bottom: 40px;
+    }
+
+    .cnt-Frasco3 {
+        background-repeat: no-repeat;
+        background-position-x: 7px;
+        background-position-y: 10px;
+
+    }
+
+    .image7 {
+        right: 522px;
+    }
+
+    .cnt-Frasco3 img {
+        position: relative;
+        right: 140px;
+    }
 
     .cnt-Two {
         display: flex;
