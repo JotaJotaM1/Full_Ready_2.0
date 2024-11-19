@@ -83,6 +83,10 @@
     top: -9.75rem;
 }
 
+.cntGroup2 img {
+    width: 400px;
+}
+
 .cnt-h2Exclu h2,
 .cnt-h2Exclu p {
     color: white;
@@ -136,10 +140,12 @@
     align-items: center;
     background-color: white;
 }
-.cnt-imgStepp{
+
+.cnt-imgStepp {
     padding: 15px 0;
 }
-.titlleStep{
+
+.titlleStep {
     font-weight: 700;
     font-size: 18px;
     line-height: 25.2px;
@@ -148,7 +154,7 @@
     padding-top: 60px;
 }
 
-.textStep{
+.textStep {
     font-family: 'FivoSans';
     font-weight: 500;
     font-size: 16px;
@@ -157,7 +163,8 @@
     color: black;
     padding: 30px 20px;
 }
-.titileImgStep{
+
+.titileImgStep {
     font-weight: 700;
     font-size: 14px;
     line-height: 14.57px;
@@ -165,7 +172,8 @@
     color: black;
     padding: 20px 0;
 }
-.textImgStep{
+
+.textImgStep {
     font-family: 'FivoSans';
     font-weight: 400;
     font-size: 16px;
@@ -174,7 +182,8 @@
     color: #717171;
 }
 
-.learMoreStep, .learMcta{
+.learMoreStep,
+.learMcta {
     font-weight: 700;
     font-size: 12px;
     line-height: 12px;
@@ -183,33 +192,37 @@
     padding: 20px 0;
 }
 
-.btn-step{
+.btn-step {
     width: 175px;
     height: 55px;
     margin-bottom: 70px;
 }
-.cnt-callToActionOne{
+
+.cnt-callToActionOne {
     background-color: #161428;
     padding: 40px 20px 30px;
     text-align: center;
 }
-.tittleCTAOne{
+
+.tittleCTAOne {
     font-weight: 700;
     font-size: 18px;
     line-height: 18.74px;
     color: #FFFFFF;
 }
-.textCTAOne{
+
+.textCTAOne {
     font-family: 'FivoSans';
     font-weight: 500;
     font-size: 16px;
     line-height: 22.4px;
-    color:#BCBCBC;
+    color: #BCBCBC;
     padding-top: 20px;
 }
 
-.cnt-callToActionTwo{
+.cnt-callToActionTwo {
     display: flex;
+    height: 400px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -221,20 +234,20 @@
     background-position-y: -30px;
 }
 
-.cnt-titleCtaTwo{
+.cnt-titleCtaTwo {
     padding: 40px 0 30px;
 
 }
-.titleCtaTwo{
+
+.titleCtaTwo {
     font-weight: 700;
     font-size: 18px;
     line-height: 18.74px;
-    letter-spacing: 4%;
     color: black;
     padding-bottom: 20px;
 }
 
-.textCtaTwo{
+.textCtaTwo {
     font-family: 'FivoSans';
     color: black;
     font-weight: 500;
@@ -242,21 +255,25 @@
     line-height: 22.4px;
     padding: 20px 2rem 15px;
 }
-.cnt-imgCtaTwo{
+
+.cnt-imgCtaTwo {
     display: flex;
     gap: 20px;
+    justify-content: center;
+    padding-bottom: 40px;
 }
-.learMcta{
+
+.learMcta {
     color: white;
     padding: 44px 0 63px;
 }
 
-.cnt-SliderComments{
+.cnt-SliderComments {
     padding-top: 13rem;
     background-color: white;
 }
 
-.titleSliderComments{
+.titleSliderComments {
     font-weight: 700;
     font-size: 18px;
     line-height: 25.2px;
@@ -264,7 +281,7 @@
     color: black
 }
 
-.textSliderComments{
+.textSliderComments {
     font-family: 'FivoSans';
     font-weight: 500;
     font-size: 16px;
@@ -274,27 +291,138 @@
     padding: 20px 20px 155px;
 }
 
-.custom-icon2{
-padding: 0;
-font-size: 13px;
+.custom-icon2 {
+    padding: 0;
+    font-size: 13px;
 }
 
-.cnt-SliderBackPurple{
+.cnt-SliderBackPurple {
     height: 380px;
     background: linear-gradient(to bottom, #BA00FF, #8839FE);
 }
 
-.cnt-limitCommets{
+.cnt-limitCommets {
     background-color: #B406FF;
 }
 
-.btnSliderComments{
+.btnSliderComments {
     color: white;
     background-color: black;
     border: none;
     padding: 15px 6px;
 }
 
+@media screen and (min-width: 768px) {
 
+    .cnt-h2 h2,
+    .cnt-h2Exclu h2 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44.8px;
+        text-align: center;
+    }
 
+    .cnt-h2 p,
+    .cnt-h2Exclu p {
+        font-size: 20px;
+        line-height: 28px;
+    }
 
+    .image3,
+    .image4,
+    .image5,
+    .image6 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .cntGroup2 img {
+        width: 554px;
+        position: relative;
+        top: -61px;
+    }
+
+    .cntImgCard p {
+        font-size: 14px;
+        line-height: 19.6px;
+        padding: 0 20px;
+    }
+
+    .btnSectiontwo {
+        width: 224px;
+        height: 65px;
+    }
+
+    .cnt-Three {
+        padding-top: 62px;
+    }
+
+    .cnt-h2Exclu h2 {
+        padding: 0 63px;
+    }
+
+    .titlleStep {
+        font-size: 32px;
+        line-height: 44.8px;
+        padding: 60px 30px 0;
+    }
+
+    .textStep {
+        font-size: 20px;
+        line-height: 28.4px;
+    }
+
+    .cnt-FatherImgStep {
+        display: flex;
+        width: 750px;
+        background-image: url(/src/assets/arrowStepOne.png), url(/src/assets/arrowStepTwo.png), url(/src/assets/arrowStepThree.png);
+        background-repeat: no-repeat;
+        background-size: 100px 30px, 100px 30px, 100px 30px;
+        background-position-x: 145px, 328px, 520px;
+        background-position-y: 26%, 10%, 28%;
+    }
+
+    .cnt-imgStepp {
+        background-color: transparent;
+    }
+    .titleCtaTwo{
+        font-size: 20px;
+        line-height: 20.82px;
+    }
+
+    .tittleCTAOne {
+        font-size: 32px;
+        line-height: 33.31px;
+    }
+
+    .textCTAOne {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .cnt-CTAmediaQuery {
+        width: 425px;
+        height: 399px;
+        margin: 40px 0 0 40px;
+    }
+
+    .cnt-titleCtaTwo {
+        text-align: left;
+    }
+
+    .textCtaTwo {
+        font-size: 19px;
+        line-height: 28.4px;
+        padding: 0;
+    }
+
+    .cnt-callToActionTwo {
+        text-align: left;
+        align-items: start;
+    }
+
+    .cnt-imgCtaTwo {
+        justify-content: start;
+        padding-bottom: 30px;
+    }
+}

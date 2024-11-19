@@ -58,7 +58,7 @@ const CarruselComentarios = () => {
 
             {/* Sección que muestra el comentario actual */}
             <div className="comentario">
-                <div>
+                <div className='cnt-ImgaAvatarCommets'>
                     <img src={comentarios[indexActual].imagen} alt={comentarios[indexActual].nombre} className="imagen" />
                 </div>
                 <div className='cnt-limitCommets'>

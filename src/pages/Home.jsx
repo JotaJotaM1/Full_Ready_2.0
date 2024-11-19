@@ -48,7 +48,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="cntBtnOne">
-                        <button>SHOP NOW</button>
+                        <button className="btnSectiontwo">SHOP NOW</button>
                     </div>
                 </div>
             </section>
@@ -87,7 +87,7 @@ const Home = () => {
                         <h2 className="titlleStep">FOLLOW THESE SIMPLE STEPS FOR THE BEST RESULTS</h2>
                         <p className="textStep">Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper</p>
                     </div>
-                    <div>
+                    <div className="cnt-FatherImgStep">
                         <div className="cnt-imgStepp">
                             <img src={step1}></img>
                             <h3 className="titileImgStep">Step 1</h3>
@@ -122,28 +122,31 @@ const Home = () => {
             {/* Section Five */}
 
             <section>
+
                 <div className="cnt-callToActionOne">
                     <h3 className="tittleCTAOne">DISCOVER HOW FULL READY HELPS EACH PERSON</h3>
                     <p className="textCTAOne">Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper</p>
                 </div>
+
             </section>
 
             {/* Section Six */}
 
             <section>
                 <div className="cnt-callToActionTwo">
-                    <div className="cnt-titleCtaTwo">
-                        <h3 className="titleCtaTwo">FEATURE HERE</h3>
-                        <p className="textCtaTwo">Dignissim neque pulvinar vestibulum eu iaculis.Et sed enim et hendrerit nunc augue eleifend arcu lectus. Cursus cum sit feugiat at.</p>
+                    <div className="cnt-CTAmediaQuery">
+                        <div className="cnt-titleCtaTwo">
+                            <h3 className="titleCtaTwo">FEATURE HERE</h3>
+                            <p className="textCtaTwo">Dignissim neque pulvinar vestibulum eu iaculis.Et sed enim et hendrerit nunc augue eleifend arcu lectus. Cursus cum sit feugiat at.</p>
+                        </div>
+                        <div className="cnt-imgCtaTwo">
+                            <img src={ctaTwoOne}></img>
+                            <img src={ctaTwoTwo}></img>
+                            <img src={ctaTwoThree}></img>
+                        </div>
+                        <a className="learMcta">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
                     </div>
-                    <div className="cnt-imgCtaTwo">
-                        <img src={ctaTwoOne}></img>
-                        <img src={ctaTwoTwo}></img>
-                        <img src={ctaTwoThree}></img>
-                    </div>
-                    <a className="learMcta">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
                 </div>
-
             </section>
         </main>
     );

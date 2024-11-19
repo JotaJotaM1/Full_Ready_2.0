@@ -13,6 +13,14 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.cnt-ImgaAvatarCommets {
+    background-image: url(../../../src/assets/quote.png);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 40px;
+
+}
+
 .texto {
     font-family: 'FivoSans';
     font-weight: 500;
@@ -34,7 +42,8 @@
     height: 120px;
     border-radius: 50%;
 }
-.Estrella{
+
+.Estrella {
     padding: 38px 0;
 }
 
@@ -50,12 +59,56 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 18.9px;
-    padding-bottom: 10px;   
+    padding-bottom: 10px;
 }
 
-.profesionEdad {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12.6px;
-    color: #4A4A4A;
+
+@media screen and (min-width: 768px) {
+
+    .custom-icon2,
+    .bi-arrow-left {
+        font-size: 29px;
+    }
+
+    .titleSliderComments {
+        font-size: 32px;
+        line-height: 44.8px;
+    }
+
+    .textSliderComments {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .cnt-CommetNameProfe {
+        padding: 31px 0;
+    }
+
+    .btnSliderComments {
+        padding: 30px 6px;
+    }
+
+    .cnt-CommetNameProfe {
+        padding: 30px 0;
+    }
+
+    .texto {
+        padding: 30px 80px 0;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .Estrella {
+        padding: 20px 0 60px;
+    }
+
+    .nombre {
+        font-size: 28px;
+        line-height: 29.4px;
+    }
+
+    .profesionEdad {
+        font-size: 14px;
+        line-height: 14.7px;
+    }
 }
