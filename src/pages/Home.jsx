@@ -132,7 +132,7 @@ const Home = () => {
 
             {/* Section Six */}
 
-            <section>
+            <section className="cnt-mediaquery1440">
                 <div className="cnt-callToActionTwo">
                     <div className="cnt-CTAmediaQuery">
                         <div className="cnt-titleCtaTwo">

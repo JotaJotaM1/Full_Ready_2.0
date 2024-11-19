@@ -147,6 +147,10 @@
     padding: 15px 0;
 }
 
+.cnt-imgStepp img {
+    width: 60px;
+}
+
 .titlleStep {
     font-weight: 700;
     font-size: 18px;
@@ -314,9 +318,7 @@
     padding: 15px 6px;
 }
 
-@media screen and (min-width: 400px){
-    
-} 
+@media screen and (min-width: 400px) {}
 
 @media screen and (min-width: 768px) {
 
@@ -391,7 +393,8 @@
     .cnt-imgStepp {
         background-color: transparent;
     }
-    .titleCtaTwo{
+
+    .titleCtaTwo {
         font-size: 20px;
         line-height: 20.82px;
     }
@@ -409,7 +412,7 @@
     .cnt-CTAmediaQuery {
         width: 425px;
         height: 399px;
-        margin: 40px 0 0 40px;
+        margin: 5% 0 0 15%;
     }
 
     .cnt-titleCtaTwo {
@@ -433,23 +436,108 @@
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     .cnt-fatherImgCard {
         padding: 30px 70px;
     }
+
     .ctnBtn1024 {
         justify-content: center;
         padding: 30px 0 50px;
     }
+
     .titlleStep {
         padding: 60px 133px 0;
     }
-    .cnt-callToActionTwo {
-        height: 375px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
 
+    .cnt-callToActionOne {
+        padding: 100px 130px 30px;
     }
 
+    .cnt-callToActionTwo {
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cnt-imgStepp img {
+        width: 90px;
+    }
+
+    .cnt-FatherImgStep {
+        width: 760px;
+        background-position-x: 148px, 326px, 527px;
+    }
+
+    .cnt-CTAmediaQuery {
+        margin: 2% 0 0 8%;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .cnt-Two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cnt-Three {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .cnt-h2 {
+        max-width: 900px;
+    }
+
+    .cnt-h2 p {
+        padding: 20px 72px 18px;
+    }
+
+    .cnt-fatherImgCard {
+        max-width: 884px;
+    }
+
+    .cntBtnOne button {
+        width: 230px;
+    }
+
+    .titlleStep {
+        max-width: 755px;
+    }
+
+    .cnt-FatherImgStep {
+        width: 900px;
+        background-position-x: 180px, 402px, 635px;
+    }
+
+    .cnt-callToActionOne {
+        height: 350px;
+    }
+
+    .cnt-callToActionTwo {
+        position: relative;
+        top: -212px;
+    }
+
+    .tittleCTAOne {
+        margin: 0 208px;
+    }
+
+    .cnt-callToActionTwo {
+        background-size: contain;
+        height: 469px;
+    }
+
+    .cnt-CTAmediaQuery {
+        margin: 5% 0 0 20%;
+    }
+
+    .cnt-mediaquery1440 {
+        height: 260px;
+    }
 }

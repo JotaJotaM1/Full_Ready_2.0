@@ -258,6 +258,10 @@ header {
         justify-content: space-between;
     }
 
+    .nav_items ul li a {
+        font-weight: 700;
+    }
+
     .cnt-mq1024 {
         display: flex;
         padding-top: 70px;
@@ -305,6 +309,30 @@ header {
     .nav_items ul li a {
         font-size: 12px;
         line-height: 12.49px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .cnt-One {
+        width: 70%;
+        margin: 70px 0 0 13%;
+    }
+
+    .pThree {
+        padding-bottom: 40px;
+    }
+
+    .cnt-Frasco3 {
+        background-repeat: no-repeat;
+        background-position-x: 7px;
+        background-position-y: 10px;
+
+    }
+
+    .cnt-Frasco3 img {
+        position: relative;
+        right: 140px;
     }
 
 }

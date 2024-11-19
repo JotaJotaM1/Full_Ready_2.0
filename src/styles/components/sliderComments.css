@@ -112,3 +112,15 @@
         line-height: 14.7px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+
+
+    .contenedor {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .btnSliderComments {
+        padding: 40px 14px;
+    }
+}
