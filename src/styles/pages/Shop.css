@@ -50,6 +50,7 @@
 }
 
 .quantity-btn {
+    cursor: pointer;
     border-radius: 100%;
     border: 1px solid black;
     background-color: white;
@@ -75,10 +76,42 @@
     padding: 15px;
     border: none;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .rowShopNow {
     font-weight: 700;
     padding: 0;
     padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .productBox-image {
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .product-card {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .productBox-image {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .product-card {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 }

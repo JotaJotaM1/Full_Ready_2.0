@@ -24,24 +24,26 @@ const Shop = () => {
         <section className="shop-container">
             <div className="product-card">
                 <img src={BoxShop} alt="Product Box" className="productBox-image" />
-                <h1 className='titleH1Shop'>FULL READY NEXT PARTY</h1>
-                <img src={StarShop}></img>
-                <h3 className="price">{`$${totalPrice}.00 USD`}</h3>
-                <p className="product-description">
-                    Ridiculus lorem egestas nisl turpis penatibus semper diam tellus. Quisque faucibus nec vitae tempor lacinia sed etiam tempus.<br /><br />
-                    Gravida sed sociis arcu dui. Purus in tristique risus quis amet dolor. Eu vitae amet enim hac mi. Augue eget aliquam et elementum.
-                </p>
-                <div className="quantity-controls">
-                    <h3 className='quantyShop'>Quantity:</h3>
-                    <div className='cnt-quantity'>
-                        <button onClick={() => handleQuantityChange('decrease')} className="quantity-btn">-</button>
-                        <span className="quantity-display">{quantity}</span>
-                        <button onClick={() => handleQuantityChange('increase')} className="quantity-btn">+</button>
+                <div className='cnt-mediaqueryShop'>
+                    <h1 className='titleH1Shop'>FULL READY NEXT PARTY</h1>
+                    <img src={StarShop}></img>
+                    <h3 className="price">{`$${totalPrice}.00 USD`}</h3>
+                    <p className="product-description">
+                        Ridiculus lorem egestas nisl turpis penatibus semper diam tellus. Quisque faucibus nec vitae tempor lacinia sed etiam tempus.<br /><br />
+                        Gravida sed sociis arcu dui. Purus in tristique risus quis amet dolor. Eu vitae amet enim hac mi. Augue eget aliquam et elementum.
+                    </p>
+                    <div className="quantity-controls">
+                        <h3 className='quantyShop'>Quantity:</h3>
+                        <div className='cnt-quantity'>
+                            <button onClick={() => handleQuantityChange('decrease')} className="quantity-btn">-</button>
+                            <span className="quantity-display">{quantity}</span>
+                            <button onClick={() => handleQuantityChange('increase')} className="quantity-btn">+</button>
+                        </div>
                     </div>
+                    <button className="order-now-btn">
+                        ADD TO CART <i className="rowShopNow bi bi-arrow-right"></i>
+                    </button>
                 </div>
-                <button className="order-now-btn">
-                    ORDER NOW <i className="rowShopNow bi bi-arrow-right"></i>
-                </button>
             </div>
         </section>
     );
