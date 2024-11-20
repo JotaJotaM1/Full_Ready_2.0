@@ -68,3 +68,10 @@
     margin: 0;
     padding: 10px 0 0 64px;
 }
+
+@media screen and (min-width: 1024px) {
+    .accordion-container {
+        width: 60%;
+    }
+}
+

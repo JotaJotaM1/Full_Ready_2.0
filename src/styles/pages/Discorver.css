@@ -19,3 +19,164 @@ h1 {
     transform: rotate(342deg);
 }
 
+.cnt-stp,
+.cnt-imgStepp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.cnt-imgStepp {
+    padding: 15px 0;
+}
+
+.cnt-imgStepp img {
+    width: 60px;
+}
+
+.titlleStep {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-align: center;
+    color: black;
+    padding-top: 60px;
+}
+
+.textStep {
+    font-family: 'FivoSans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: center;
+    color: black;
+    padding: 30px 20px;
+}
+
+.titileImgStep {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14.57px;
+    text-align: center;
+    color: black;
+    padding: 20px 0;
+}
+
+.textImgStep {
+    font-family: 'FivoSans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16.8px;
+    text-align: center;
+    color: #717171;
+}
+
+.learMoreStep,
+.learMcta {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #BC00F4;
+    padding: 20px 0;
+}
+
+.titleTwoDisco {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.btn-Discover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Syncopate", sans-serif;
+    width: 250px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: #0B000E;
+    color: white;
+    padding: 8.49px 33.96px 8.49px 33.96px;
+    border: 0.7px solid white;
+    margin-bottom: 40px;
+}
+
+.arrowDiscover {
+    font-size: 27px;
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .titlleStep {
+        font-size: 32px;
+        line-height: 44.8px;
+        padding: 60px 30px 0;
+    }
+
+    .textStep {
+        font-size: 20px;
+        line-height: 28.4px;
+    }
+
+    .cnt-FatherImgStep {
+        display: flex;
+        width: 750px;
+        background-image: url(/src/assets/arrowStepOne.png), url(/src/assets/arrowStepTwo.png), url(/src/assets/arrowStepThree.png);
+        background-repeat: no-repeat;
+        background-size: 100px 30px, 100px 30px, 100px 30px;
+        background-position-x: 145px, 328px, 520px;
+        background-position-y: 26%, 10%, 28%;
+    }
+
+    .cnt-imgStepp {
+        background-color: transparent;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .titlleStep {
+        padding: 60px 133px 0;
+    }
+
+    .cnt-imgStepp img {
+        width: 90px;
+    }
+
+    .cnt-FatherImgStep {
+        width: 760px;
+        background-position-x: 148px, 326px, 527px;
+    }
+
+    .accordion-container {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .titlleStep {
+        max-width: 755px;
+    }
+
+    .cnt-FatherImgStep {
+        width: 900px;
+        background-position-x: 180px, 402px, 635px;
+    }
+
+    .accordion-container {
+        width: 80%;
+    }
+
+    .accordion-container {
+        width: 80%;
+    }
+
+}
