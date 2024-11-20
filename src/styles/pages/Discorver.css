@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: black;
+    padding: 40px 0;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+}
+
+.cnt-bannerImgOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBannderOne {
+    width: 166px;
+    transform: rotate(342deg);
+}
+

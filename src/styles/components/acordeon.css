@@ -1,0 +1,70 @@
+.accordion-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+/* Encabezado del acordeón */
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px 0;
+    transition: color 0.3s;
+}
+
+.accordion-header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.active-icon {
+    font-size: 20px;
+    color: #e91e63;
+
+}
+
+.inactive-icon {
+    font-size: 20px;
+    color: black;
+}
+
+.accordion-header.active .accordion-question {
+    color: #FF00DA;
+    font-weight: bold;
+}
+
+.accordion-question {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'FivoSans';
+    font-weight: 700;
+    color: black;
+}
+
+.accordion-toggle {
+    transition: transform 0.3s ease;
+}
+
+.accordion-toggle.rotated {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    color: #555;
+    margin-top: 5px;
+}
+
+.accordion-content p {
+    font-family: 'FivoSans';
+    margin: 0;
+    padding: 10px 0 0 64px;
+}
