@@ -1,0 +1,84 @@
+.shop-container {
+    color: black;
+    padding: 60px 0;
+}
+
+.shop-container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.productBox-image {
+    width: 100%;
+}
+
+.titleH1Shop {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37.2px;
+    padding: 40px 0 0;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24.8px;
+    padding: 20px 0;
+}
+
+.product-description,
+.quantyShop {
+    font-family: 'FivoSans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #4A4A4A;
+    border-top: 1px solid #E3E3E3;
+    padding: 20px 0;
+}
+
+.quantyShop {
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.cnt-quantity {
+    padding: 0 0 30px;
+}
+
+.quantity-btn {
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.quantity-display {
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.order-now-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Syncopate", sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    font-weight: 700;
+}
+
+.rowShopNow {
+    font-weight: 700;
+    padding: 0;
+    padding-left: 10px;
+}
