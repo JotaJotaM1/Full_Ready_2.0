@@ -14,7 +14,7 @@ const Discovers = () => {
         <main>
             <section>
                 <div className='cnt-fatherSectionOne'>
-                    <h1>DISCOVER FULL READY</h1>
+                    <h1 className='titleH1Discover'>DISCOVER FULL READY</h1>
                     <div className='cnt-bannerImgOne'>
                         <img className='imgBannderOne' src={frasco3}></img>
                     </div>
