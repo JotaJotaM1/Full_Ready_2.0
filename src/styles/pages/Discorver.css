@@ -14,12 +14,13 @@
     align-items: center;
     width: 96%;
     margin: 0 auto;
-    background-image: url('../../../src/assets/theMagic.png');
-    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.3));
+    background-image: url('../../../src/assets/theMagic.png'), url('../../../src/assets/BolasGrupo1.png'), url('../../../src/assets/BolasGrupo2.png');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-size: contain, 34%, 17%;
+    background-position-x: center, 131%, 2%;
+    background-position-y: center, 74%, 44%;
     margin-bottom: 40px;
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.3));
 }
 
 .imgBannderOne {
@@ -141,7 +142,7 @@
     .cnt-FatherImgStep {
         display: flex;
         width: 750px;
-        background-image: url(/src/assets/arrowStepOne.png), url(/src/assets/arrowStepTwo.png), url(/src/assets/arrowStepThree.png);
+        background-image: url('/src/assets/arrowStepOne.png'), url('/src/assets/arrowStepTwo.png'), url('/src/assets/arrowStepThree.png');
         background-repeat: no-repeat;
         background-size: 100px 30px, 100px 30px, 100px 30px;
         background-position-x: 145px, 328px, 520px;
@@ -151,6 +152,12 @@
     .cnt-imgStepp {
         background-color: transparent;
     }
+    .cnt-bannerImgOne {
+        background-size: 95%, 22%, 12%;
+        background-position-x: center, 95%, 9%;
+        background-position-y: center, 97%, 42%;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -170,8 +177,9 @@
     .accordion-container {
         width: 60%;
     }
-    .cnt-bannerImgOne {
-        background-size: auto;
+
+    .imgBannderOne {
+        width: 200px;
     }
 }
 
@@ -191,6 +199,14 @@
 
     .accordion-container {
         width: 80%;
+    }
+    .cnt-bannerImgOne {
+        background-size: 57%, 10%, 7%;
+        background-position-x: center, 76%, 25%;
+        background-position-y: center, 93%, 20%;
+    }
+    .imgBannderOne {
+        width: 240px;
     }
 
 }

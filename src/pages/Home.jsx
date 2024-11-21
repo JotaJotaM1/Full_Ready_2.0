@@ -27,7 +27,7 @@ const Home = () => {
                         <p className="pOne">WELCOME TO</p>
                         <h1 className="titleOne">FULL READY</h1>
                         <p className="pTwo">YOUR PARTY PARTNER</p>
-                        <p className="pThree">Discover how Full Ready transforms your night and morning.</p>
+                        <h2 className="pThree">Discover how Full Ready transforms your night and morning.</h2>
                         <div className="cntBtnOne btnH1">
                             <button>SHOP NOW<i className="bi bi-arrow-right"></i></button>
                         </div>
