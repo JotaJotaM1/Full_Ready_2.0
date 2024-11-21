@@ -34,6 +34,7 @@ header {
     position: relative;
     text-decoration: none;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .nav_toggle {
@@ -50,17 +51,18 @@ header {
 @media (max-width: 1023px) {
 
     .nav_items {
-        height: 100vh;
+        height: 100vmax;
         position: absolute;
         top: 80px;
         left: 0;
-        background: #333;
+        background: black;
         display: flex;
         flex-direction: column;
         width: 100%;
         height: -webkit-fill-avaible;
         transform: translateX(-100%);
         transition: 0.3s ease all;
+        z-index: 999;
     }
 
     .nav_items.open {

@@ -3,7 +3,7 @@
     color: black;
     padding: 40px 0;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 25px;
     line-height: 42px;
 }
 
@@ -12,6 +12,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 96%;
+    margin: 0 auto;
+    background-image: url('../../../src/assets/theMagic.png');
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.3));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 40px;
 }
 
 .imgBannderOne {
@@ -81,6 +89,9 @@
     text-align: center;
     color: #BC00F4;
     padding: 20px 0;
+}
+.learMcta{
+    color :white;
 }
 
 .titleTwoDisco {
@@ -158,6 +169,9 @@
 
     .accordion-container {
         width: 60%;
+    }
+    .cnt-bannerImgOne {
+        background-size: auto;
     }
 }
 
