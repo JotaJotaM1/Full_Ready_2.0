@@ -41,6 +41,10 @@ header {
     display: none;
 }
 
+.cnt-fixed{
+    position: fixed;
+}
+
 @media screen and (min-width: 768px) {
 
     .navbar {
@@ -51,7 +55,7 @@ header {
 @media (max-width: 1023px) {
 
     .nav_items {
-        height: 100vmax;
+        height: 100%;
         position: absolute;
         top: 80px;
         left: 0;
@@ -59,7 +63,6 @@ header {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: -webkit-fill-avaible;
         transform: translateX(-100%);
         transition: 0.3s ease all;
         z-index: 999;
@@ -120,10 +123,34 @@ header {
     .nav_items ul li {
         display: flex;
         justify-content: space-between;
+        position: relative;
     }
 
     .nav_items ul li a {
         font-weight: 700;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        transition: color 0.3s ease;
     }
 
+    .nav_items ul li.active a {
+        color: #ff00ff;
+    }
+
+    .nav_items ul li::after {
+        content: '';
+        position: absolute;
+        bottom: -36px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background-color: #FF00DA;
+        transition: width 0.3s ease;
+    }
+
+    .nav_items ul li.active::after,
+    .nav_items ul li:hover::after {
+        width: 100%;
+    }
 }

@@ -5,7 +5,7 @@ import Discover from './pages/Discover';
 import Shop from './pages/Shop';
 import FindFullReady from './pages/FindFullReady';
 import ExploreMore from './pages/ExploreMore';
-import Ambassadors from './pages/Ambassadors';
+// import Ambassadors from './pages/Ambassadors';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 
@@ -19,7 +19,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/find-full-ready" element={<FindFullReady />} />
         <Route path="/explore-more" element={<ExploreMore />} />
-        <Route path="/ambassadors" element={<Ambassadors />} />
+        {/* <Route path="/ambassadors" element={<Ambassadors />} /> */}
       </Routes>
       <Footer />
     </Router>
