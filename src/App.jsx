@@ -6,7 +6,7 @@ import Shop from './pages/Shop';
 import FindFullReady from './pages/FindFullReady';
 import ExploreMore from './pages/ExploreMore';
 // import Ambassadors from './pages/Ambassadors';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css'
 
 function App() {
@@ -14,16 +14,16 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route index path="/home" element={<Home />} />
+        <Route index path="/" element={<Navigate to="/home" />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/discover" element={<Discover />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/find-full-ready" element={<FindFullReady />} />
         <Route path="/explore-more" element={<ExploreMore />} />
-        {/* <Route path="/ambassadors" element={<Ambassadors />} /> */}
       </Routes>
       <Footer />
     </Router>
-  )
+  );
 }
 
 export default App;
