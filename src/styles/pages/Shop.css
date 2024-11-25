@@ -1,20 +1,28 @@
 .shop-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
     color: black;
     padding: 60px 0;
 }
 
-.shop-container {
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 30px;
-}
-
 .productBox-image {
-    width: 100%;
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .titleH1Shop {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44.8px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.titleH2Shop {
     font-weight: 700;
     font-size: 40px;
     line-height: 37.2px;
@@ -86,6 +94,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    .titleH1Shop {
+        font-size: 40px;
+        line-height: 48.8px;
+    }
+
     .productBox-image {
         display: flex;
         width: 60%;
@@ -109,7 +122,7 @@
     }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
     .product-card {
         max-width: 1000px;
         margin: 0 auto;

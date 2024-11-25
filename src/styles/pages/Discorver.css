@@ -101,7 +101,7 @@
     line-height: 40px;
     color: black;
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 25px;
 }
 
 .btn-Discover {
@@ -110,7 +110,7 @@
     justify-content: center;
     align-items: center;
     font-family: "Syncopate", sans-serif;
-    width: 250px;
+    width: 320px;
     height: 70px;
     font-weight: 700;
     font-size: 16px;
@@ -125,6 +125,9 @@
 .arrowDiscover {
     font-size: 27px;
     padding-left: 15px;
+}
+.cnt-titleTwoDisco{
+    margin-top: 70px;
 }
 
 @media screen and (min-width: 768px) {
@@ -189,8 +192,8 @@
     }
 
     .cnt-FatherImgStep {
-        width: 900px;
-        background-position-x: 180px, 402px, 635px;
+        width: 931px;
+        background-position-x: 194px, 429px, 658px;
     }
 
     .accordion-container {

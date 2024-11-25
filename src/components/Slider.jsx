@@ -7,19 +7,19 @@ const data = [
     {
         img: sliderPorcenta,
         title: 'BEST SELLER',
-        description: 'Nullam auctor dignissim pellentesque tristique quis.',
+        description: 'Join our communitys favorite pick. Energize and recover with Full Ready!',
         button: 'SHOP NOW'
     },
     {
         img: sliderTime,
         title: 'LIMITED TIME DISCOUNTS',
-        description: 'Nullam auctor dignissim pellentesque tristique quis.',
+        description: 'Save big on our exclusive deals. Stock up before they re gone!',
         button: 'SHOP NOW'
     },
     {
         img: sliderHuman,
         title: 'CUSTOMER FAVORITE',
-        description: 'Nullam auctor dignissim pellentesque tristique quis.',
+        description: 'Chosen by users for ultimate recovery and energy. Try it today!',
         button: 'SHOP NOW'
     },
 ];

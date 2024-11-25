@@ -49,25 +49,25 @@ const Home = () => {
                 <div className="cnt-Two">
                     <div className="cnt-h2">
                         <h2>THE NATURAL, EFFECTIVE, AND CERTIFIED BENEFITS OF FULL READY</h2>
-                        <p>Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper accumsan convallis habitasse eget. Aliquet tincidunt donec sed nibh.</p>
+                        <p>Discover the powerful benefits of Full Ready, crafted with 100% natural ingredients to keep you energized, balanced, and ready to conquer your day.</p>
                     </div>
                     <div className="cnt-fatherImgCard">
                         <div className="cntImgCard">
                             <img className="image3" src={image3} alt="image3"></img>
-                            <p className="p3">LOREM IPSUM DOLOR ET</p>
+                            <p className="p3">LIVER PROTECTION</p>
                         </div>
                         <div className="cntImgCard">
                             <img className="image4" src={image4} alt="image4"></img>
-                            <p className="p4">LOREM IPSUM DOLOR ET</p>
+                            <p className="p4">ENERGY BOOSTER</p>
 
                         </div>
                         <div className="cntImgCard">
                             <img className="image5" src={image5} alt="image5"></img>
-                            <p className="p5">100% LOREM</p>
+                            <p className="p5">100% NATURAL</p>
                         </div>
                         <div className="cntImgCard">
                             <img className="image6" src={image6} alt="image6"></img>
-                            <p className="p6">LOREM IPSUM DOLOR ET</p>
+                            <p className="p6">ANTIOXIDANT POWER</p>
                         </div>
                     </div>
                     <div className="cntBtnOne ctnBtn1024">
@@ -85,14 +85,14 @@ const Home = () => {
                     </div>
                     <div className="cnt-h2Exclu">
                         <h2>EXCLUSIVE PROMOTIONS AND DISCOUNTS</h2>
-                        <p>Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper.</p>
+                        <p>Take advantage of these limited-time offers to get the most out of Full Ready. Don&apos;t miss out!</p>
                     </div>
                 </div>
                 <Slider />
                 <div className="cnt-SliderComments">
                     <div>
-                        <h2 className="titleSliderComments">TESTIMONIALS</h2>
-                        <p className="textSliderComments">Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper</p>
+                        <h2 className="titleSliderComments">WHAT PEOPLE ARE SAYING ABOUT FULL READY</h2>
+                        <p className="textSliderComments">See how Full Ready is helping others enjoy their nights and conquer their mornings with ease.</p>
                     </div>
                     <div>
                         <div className="cnt-SliderBackPurple">
@@ -108,32 +108,32 @@ const Home = () => {
                 <div className="cnt-stp">
                     <div>
                         <h2 className="titlleStep">FOLLOW THESE SIMPLE STEPS FOR THE BEST RESULTS</h2>
-                        <p className="textStep">Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper</p>
+                        <p className="textStep">With Full Ready, you don&apos;t have to choose between a great night and a productive morning. Follow these simple steps to enjoy every moment</p>
                     </div>
                     <div className="cnt-FatherImgStep">
                         <div className="cnt-imgStepp">
                             <img src={step1}></img>
-                            <h3 className="titileImgStep">Step 1</h3>
-                            <p className="textImgStep">Nullam auctor dignissim pelntesque tristique quis.</p>
-                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
+                            <h3 className="titileImgStep">STEP 1</h3>
+                            <p className="textImgStep">Take Full Ready before drinking to protect your liver and prep for the night.</p>
+                            <a className="learMoreStep">GET FULL READY<i className="bi bi-arrow-right-short"></i></a>
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step2}></img>
-                            <h3 className="titileImgStep">Step 2</h3>
-                            <p className="textImgStep">Nullam auctor dignissim pelntesque tristique quis.</p>
-                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
+                            <h3 className="titileImgStep">STEP 2</h3>
+                            <p className="textImgStep">Stay energized and hydrated while you party—Full Ready&apos;s got you.</p>
+                            <a className="learMoreStep">GET FULL READY<i className="bi bi-arrow-right-short"></i></a>
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step3}></img>
-                            <h3 className="titileImgStep">Step 3</h3>
-                            <p className="textImgStep">Nullam auctor dignissim pelntesque tristique quis.</p>
-                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
+                            <h3 className="titileImgStep">STEP 3</h3>
+                            <p className="textImgStep">Enjoy every moment without worry. Full Ready keeps you going strong.</p>
+                            <a className="learMoreStep">GET FULL READY<i className="bi bi-arrow-right-short"></i></a>
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step4}></img>
-                            <h3 className="titileImgStep">Step 4</h3>
-                            <p className="textImgStep">Nullam auctor dignissim pelntesque tristique quis.</p>
-                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
+                            <h3 className="titileImgStep">STEP 4</h3>
+                            <p className="textImgStep">Wake up fresh and unstoppable. Full Ready makes mornings easy.</p>
+                            <a className="learMoreStep">GET FULL READY<i className="bi bi-arrow-right-short"></i></a>
                         </div>
                     </div>
                     <div>
@@ -147,8 +147,8 @@ const Home = () => {
             <section>
 
                 <div className="cnt-callToActionOne">
-                    <h3 className="tittleCTAOne">DISCOVER HOW FULL READY HELPS EACH PERSON</h3>
-                    <p className="textCTAOne">Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper</p>
+                    <h3 className="tittleCTAOne">DISCOVER HOW FULL READY FITS YOUR LIFESTYLE</h3>
+                    <p className="textCTAOne">From nightlife hacks to wellness tips, explore articles designed just for you. Whatever your vibe, Full Ready has insights to keep you energized and balanced.</p>
                 </div>
 
             </section>
@@ -159,15 +159,15 @@ const Home = () => {
                 <div className="cnt-callToActionTwo">
                     <div className="cnt-CTAmediaQuery">
                         <div className="cnt-titleCtaTwo">
-                            <h3 className="titleCtaTwo">FEATURE HERE</h3>
-                            <p className="textCtaTwo">Dignissim neque pulvinar vestibulum eu iaculis.Et sed enim et hendrerit nunc augue eleifend arcu lectus. Cursus cum sit feugiat at.</p>
+                            <h3 className="titleCtaTwo">WHAT SETS FULL READY APART</h3>
+                            <p className="textCtaTwo">Crafted for those who give it all at night and still want to own the morning. Full Ready is the smarter, natural way to recover.</p>
                         </div>
                         <div className="cnt-imgCtaTwo">
                             <img src={ctaTwoOne}></img>
                             <img src={ctaTwoTwo}></img>
                             <img src={ctaTwoThree}></img>
                         </div>
-                        <a className="learMcta">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
+                        <a className="learMcta">SHOP NOW<i className="bi bi-arrow-right-short"></i></a>
                     </div>
                 </div>
             </section>

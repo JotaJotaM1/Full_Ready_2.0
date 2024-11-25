@@ -22,15 +22,17 @@ const Shop = () => {
 
     return (
         <section className="shop-container">
+            <div className='cntH1Shop'>
+                <h1 className='titleH1Shop'>FUEL YOUR NIGHT,<br></br> RULE YOUR MORNING.</h1>
+            </div>
             <div className="product-card">
                 <img src={BoxShop} alt="Product Box" className="productBox-image" />
                 <div className='cnt-mediaqueryShop'>
-                    <h1 className='titleH1Shop'>FULL READY NEXT PARTY</h1>
+                    <h2 className='titleH2Shop'>FULL READY SIX PACK</h2>
                     <img src={StarShop}></img>
                     <h3 className="price">{`$${totalPrice}.00 USD`}</h3>
                     <p className="product-description">
-                        Ridiculus lorem egestas nisl turpis penatibus semper diam tellus. Quisque faucibus nec vitae tempor lacinia sed etiam tempus.<br /><br />
-                        Gravida sed sociis arcu dui. Purus in tristique risus quis amet dolor. Eu vitae amet enim hac mi. Augue eget aliquam et elementum.
+                        Say goodbye to sluggish mornings and hello to unstoppable energy. Full Ready Next Party is a 100% natural recovery drink that prepares your body for a night of celebration and ensures you wake up feeling fresh, hydrated, and ready to conquer the day. With no caffeine, no artificial junk, and no compromises, Full Ready is your new party essential.
                     </p>
                     <div className="quantity-controls">
                         <h3 className='quantyShop'>Quantity:</h3>

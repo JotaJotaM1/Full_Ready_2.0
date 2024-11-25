@@ -9,26 +9,26 @@ const comentarios = [
     {
         id: 1,
         imagen: Camilo,
-        descripcion:'A Front-end Developer ensures websites look great and work seamlessly, focusing on user experience and using coding languages like HTML and CSS.',
+        descripcion:'Full Ready has completely transformed my mornings. I wake up feeling refreshed and ready to tackle the day!',
         Estrella: Stars,
-        nombre: "James Mosquera",
-        profesionEdad: "34, Developer Front-end"
+        nombre: "Roger Murillo",
+        profesionEdad: "34, SEO"
     },
     {
-        id: 1,
+        id: 2,
         imagen: Camilo,
-        descripcion: 'A Back-end Developer builds and maintains the server-side logic and databases that power dynamic websites and ensure smooth data processing.',
+        descripcion: 'I love how natural it is. No weird chemicals, just pure energy and recovery in a bottle',
         Estrella: Stars,
-        nombre: "Juan Brand",
-        profesionEdad: "30, Developer Back-end"
+        nombre: "Andrea L",
+        profesionEdad: "29, Fitness Enthusiast"
     },
     {
-        id: 1,
+        id: 3,
         imagen: Camilo,
-        descripcion: 'A UI/UX Designer crafts user-friendly interfaces and improves experiences by making websites intuitive, appealing, and easy to navigate',
+        descripcion: 'The perfect solution for long nights and busy mornings. Full Ready is my new go-to!',
         Estrella: Stars,
-        nombre: "Camilo Brando",
-        profesionEdad: "34, UI/UX"
+        nombre: "Jorge M",
+        profesionEdad: "40, Marketing Manager"
     }
 ];
 

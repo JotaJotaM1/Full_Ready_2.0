@@ -248,7 +248,7 @@
     line-height: 25.2px;
     text-align: center;
     color: black;
-    padding-top: 60px;
+    padding: 60px 20px 0;
 }
 
 .textStep {
@@ -277,6 +277,7 @@
     line-height: 16.8px;
     text-align: center;
     color: #717171;
+    padding: 0 50px;
 }
 
 .learMoreStep,
@@ -292,7 +293,7 @@
 .btn-step {
     width: 175px;
     height: 55px;
-    margin-bottom: 70px;
+    margin: 70px 0;
 }
 
 .cnt-callToActionOne {
@@ -375,7 +376,8 @@
     font-size: 18px;
     line-height: 25.2px;
     text-align: center;
-    color: black
+    color: black;
+    padding: 0 10px;
 }
 
 .textSliderComments {
@@ -467,6 +469,10 @@
         line-height: 28px;
     }
 
+    .cnt-h2Exclu p {
+        padding-bottom: 36px;
+    }
+
     .image3,
     .image4,
     .image5,
@@ -509,6 +515,12 @@
     .textStep {
         font-size: 20px;
         line-height: 28.4px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .textImgStep {
+        padding: 0 20px;
     }
 
     .cnt-FatherImgStep {
@@ -538,6 +550,8 @@
     .textCTAOne {
         font-size: 20px;
         line-height: 28px;
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     .cnt-CTAmediaQuery {
@@ -606,7 +620,7 @@
     }
 
     .cnt-FatherImgStep {
-        width: 760px;
+        width: 870px;
         background-position-x: 148px, 326px, 527px;
     }
 
@@ -718,11 +732,13 @@
 
     .titlleStep {
         max-width: 755px;
+        margin: 0 auto;
     }
 
     .cnt-FatherImgStep {
-        width: 900px;
-        background-position-x: 180px, 402px, 635px;
+        width: 930px;
+        background-position-x: 193px, 412px, 638px;
+        background-position-y: 30%, 14%, 31%;
     }
 
     .cnt-callToActionOne {
