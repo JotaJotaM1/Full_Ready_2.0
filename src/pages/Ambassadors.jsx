@@ -9,7 +9,12 @@ const Ambassadors = () => {
                 <p className="pAmbaOne">IT&apos;S FULL READY TIME</p>
                 <h1 className="h1Amba">APPLY TO BE AN<br></br> <span className="spanAmbaH1">AMBASSADORS</span></h1>
                 <h2 className="h2Amba">READY TO JOIN US?</h2>
-                <button className="btnAmbaAply">APLY NOW</button>
+                <a
+                    href="https://l2t6jtspul5.typeform.com/to/YM1gwHa9"
+                    target="_blank"
+                    rel="noopener noreferrer" className="anchorBTNtypeform">
+                    <button className="btnAmbaAply">APPLY NOW</button>
+                </a>
             </div>
             <section className="Cnt-FatherPerks">
                 <div className="cnt-h2Perks">
@@ -30,7 +35,7 @@ const Ambassadors = () => {
                             <p className="textPerks">COMPETITIONS AND PRIZES</p>
                         </div>
                         <div className="Perks-Items">
-            <i className="iconPerks bi bi-instagram"></i>
+                            <i className="iconPerks bi bi-instagram"></i>
                             <p className="textPerks">PRIVATE ACCESS</p>
                         </div>
                         <div className="Perks-Items">

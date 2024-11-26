@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className='cnt-SocialIcons'>
                     <div className='cnt-imgLogoFooter'>
                         <img src={logoFooter} alt='logoFooter'></img>
-                        <p className='textFooter'>Amet pellentesque tellus velit risus. Semper habitant nulla ullamcorper.</p>
+                        <p className='textFooter'>FULL READY, ENJOY THE BALANCE</p>
                     </div>
                     <div className='cnt-UlSocialFooter'>
                         <ul>

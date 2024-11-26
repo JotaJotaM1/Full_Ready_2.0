@@ -15,7 +15,9 @@ const NavBar = () => {
         <header>
             <div className="navbar">
                 <div className="nav_logo">
-                    <img src={logo} alt="Logo" />
+                    <Link to="/home">
+                        <img src={logo} alt="Logo" />
+                    </Link>
                 </div>
                 <div className={`nav_items ${isOpen ? "open" : ""}`}>
                     <ul>

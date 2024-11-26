@@ -37,6 +37,10 @@
     transform: scale(1.05);
 }
 
+.anchorBTNtypeform{
+    text-decoration: none;
+}
+
 @media screen and (min-width: 768px){
     .ambassadors-gridTwo {
         grid-template-columns: repeat(2, 1fr);
