@@ -32,25 +32,21 @@ const Discovers = () => {
                             <img src={step1}></img>
                             <h3 className="titileImgStep">STEP 1</h3>
                             <p className="textImgStep">Take Full Ready before drinking to protect your liver and prep for the night.</p>
-                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step2}></img>
                             <h3 className="titileImgStep">STEP 2</h3>
                             <p className="textImgStep">Stay energized and hydrated while you party—Full Ready’s got you.</p>
-                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step3}></img>
                             <h3 className="titileImgStep">STEP 3</h3>
                             <p className="textImgStep">Enjoy every moment without worry. Full Ready keeps you going strong.</p>
-                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step4}></img>
                             <h3 className="titileImgStep">STEP 4</h3>
                             <p className="textImgStep">Wake up fresh and unstoppable. Full Ready makes mornings easy.</p>
-                            <a className="learMoreStep">LEAR MORE<i className="bi bi-arrow-right-short"></i></a>
                         </div>
                     </div>
                     <div className='cnt-titleTwoDisco'>

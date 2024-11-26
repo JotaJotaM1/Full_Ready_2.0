@@ -1,6 +1,7 @@
 import "../styles/pages/Home.css";
 import Slider from '../components/Slider';
-import SliderComments from '../components/SliderComments'
+import SliderComments from '../components/SliderComments';
+import { Link } from 'react-router-dom';
 import {
     image3,
     image4,
@@ -29,7 +30,11 @@ const Home = () => {
                         <p className="pTwo">YOUR PARTY PARTNER</p>
                         <h2 className="pThree">Discover how Full Ready transforms your night and morning.</h2>
                         <div className="cntBtnOne btnH1">
-                            <button>SHOP NOW<i className="bi bi-arrow-right"></i></button>
+                            <button>
+                                <Link to="/shop" className="shop-link">
+                                    SHOP NOW<i className="bi bi-arrow-right"></i>
+                                </Link>
+                            </button>
                         </div>
                     </div>
                     <div className="cnt-FrasImage">
@@ -71,7 +76,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="cntBtnOne ctnBtn1024">
-                        <button className="btnSectiontwo">SHOP NOW</button>
+                        <button className="btnSectiontwo">
+                            <Link to="/shop" className="shop-link">
+                                SHOP NOW
+                            </Link>
+                        </button>
                     </div>
                 </div>
             </section>
@@ -115,29 +124,34 @@ const Home = () => {
                             <img src={step1}></img>
                             <h3 className="titileImgStep">STEP 1</h3>
                             <p className="textImgStep">Take Full Ready before drinking to protect your liver and prep for the night.</p>
-                            <a className="learMoreStep">GET FULL READY<i className="bi bi-arrow-right-short"></i></a>
+                            <Link to="/discover" className="learMoreStep">
+                                GET FULL READY <i className="bi bi-arrow-right-short"></i>
+                            </Link>
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step2}></img>
                             <h3 className="titileImgStep">STEP 2</h3>
                             <p className="textImgStep">Stay energized and hydrated while you party—Full Ready&apos;s got you.</p>
-                            <a className="learMoreStep">GET FULL READY<i className="bi bi-arrow-right-short"></i></a>
+                            <Link to="/discover" className="learMoreStep">
+                                GET FULL READY <i className="bi bi-arrow-right-short"></i>
+                            </Link>
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step3}></img>
                             <h3 className="titileImgStep">STEP 3</h3>
                             <p className="textImgStep">Enjoy every moment without worry. Full Ready keeps you going strong.</p>
-                            <a className="learMoreStep">GET FULL READY<i className="bi bi-arrow-right-short"></i></a>
+                            <Link to="/discover" className="learMoreStep">
+                                GET FULL READY <i className="bi bi-arrow-right-short"></i>
+                            </Link>
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step4}></img>
                             <h3 className="titileImgStep">STEP 4</h3>
                             <p className="textImgStep">Wake up fresh and unstoppable. Full Ready makes mornings easy.</p>
-                            <a className="learMoreStep">GET FULL READY<i className="bi bi-arrow-right-short"></i></a>
+                            <Link to="/discover" className="learMoreStep">
+                                GET FULL READY <i className="bi bi-arrow-right-short"></i>
+                            </Link>
                         </div>
-                    </div>
-                    <div>
-                        <button className="btn-step">BUY NOW</button>
                     </div>
                 </div>
             </section>
@@ -167,7 +181,9 @@ const Home = () => {
                             <img src={ctaTwoTwo}></img>
                             <img src={ctaTwoThree}></img>
                         </div>
-                        <a className="learMcta">SHOP NOW<i className="bi bi-arrow-right-short"></i></a>
+                        <Link to="/shop" className="learMcta">
+                            SHOP NOW<i className="bi bi-arrow-right-short"></i>
+                        </Link>
                     </div>
                 </div>
             </section>

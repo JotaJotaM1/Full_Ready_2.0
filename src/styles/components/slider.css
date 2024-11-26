@@ -64,6 +64,7 @@
     background-color: #0B000E;
     color: white;
     border: 0.7px solid white;
+    cursor: pointer;
 }
 
 @media (min-width: 425px){

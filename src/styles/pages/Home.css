@@ -48,8 +48,7 @@
     justify-content: center;
 }
 
-.cntBtnOne button,
-.btn-step {
+.cntBtnOne button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,6 +63,12 @@
     color: white;
     padding: 8.49px 33.96px 8.49px 33.96px;
     border: 0.7px solid white;
+    cursor: pointer;
+}
+
+.shop-link {
+    color: white;
+    text-decoration: none;
 }
 
 .bi-arrow-right {
@@ -288,12 +293,7 @@
     text-align: center;
     color: #BC00F4;
     padding: 20px 0;
-}
-
-.btn-step {
-    width: 175px;
-    height: 55px;
-    margin: 70px 0;
+    text-decoration: none;
 }
 
 .cnt-callToActionOne {
@@ -409,6 +409,9 @@
     background-color: black;
     border: none;
     padding: 15px 6px;
+}
+.cnt-stp{
+    padding: 20px 0 90px;
 }
 
 @media screen and (min-width: 425px) {
@@ -672,6 +675,9 @@
         font-size: 12px;
         line-height: 12.49px;
     }
+    .cnt-stp {
+        padding: 40px 0 100px;
+    }
 
 
 }
@@ -765,5 +771,9 @@
 
     .cnt-mediaquery1440 {
         height: 260px;
+    }
+
+    .cnt-stp {
+        padding: 40px 0 120px;
     }
 }

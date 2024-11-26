@@ -7,11 +7,13 @@ import FindFullReady from './pages/FindFullReady';
 import ExploreMore from './pages/ExploreMore';
 // import Ambassadors from './pages/Ambassadors';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import ScrollToTop from "./components/ScrollToTop";
 import './App.css'
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <NavBar />
       <Routes>
         <Route index path="/" element={<Navigate to="/home" />} />

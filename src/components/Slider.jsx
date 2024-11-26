@@ -2,6 +2,7 @@ import '../styles/components/slider.css';
 import sliderPorcenta from '../assets/sliderPorcenta.png';
 import sliderHuman from '../assets/sliderHuman.png';
 import sliderTime from '../assets/sliderTime.png';
+import { Link } from 'react-router-dom';
 
 const data = [
     {
@@ -35,11 +36,14 @@ const Slider = () => {
                         <img src={item.img} alt="imgCardSlider" className="imgIcon" />
                         <h2 className="titleCardSlider">{item.title}</h2>
                         <p className="descriptionCardSlider">{item.description}</p>
-                        <button className="btn-shop-nowCardSlider">{item.button}</button>
+                        <button className="btn-shop-nowCardSlider">
+                            <Link to="/shop" className="shop-link">
+                                {item.button}
+                            </Link>
+                        </button>
                     </div>
                 ))}
-            </div>  
-
+            </div>
         </div>
     );
 };

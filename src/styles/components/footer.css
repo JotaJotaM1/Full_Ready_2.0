@@ -93,6 +93,36 @@ ul li,
 .textTerm {
     font-weight: 700;
 }
+/* Estilo base para los <li> */
+.li-Footer {
+    position: relative; /* Necesario para que el ::after se posicione respecto al <li> */
+    list-style: none;
+    color: #000; /* Color inicial del texto */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+/* Estilo para el ::after */
+.li-Footer::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Ajusta según la separación que desees del texto */
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #FF00DA; /* Color de la línea */
+    transition: width 0.3s ease; /* Animación suave */
+}
+
+/* Animación al pasar el mouse */
+.li-Footer:hover {
+    color: #FF00DA; /* Cambia el color del texto al pasar el mouse */
+}
+
+.li-Footer:hover::after {
+    width: 100%; /* Extiende la línea a lo largo del <li> */
+}
+
+
 
 @media screen and (min-width: 1024px) {
     .cnt-ul-Footer {
