@@ -6,7 +6,7 @@ import StarShop from '../assets/starShop.png';
 const Shop = () => {
     // Estado para manejar la cantidad de cajas y el precio por caja
     const [quantity, setQuantity] = useState(1);
-    const pricePerBox = 16; // Cambia este valor por el precio real de tu caja
+    const pricePerBox = 7; // Cambia este valor por el precio real de tu caja
 
     // Función para cambiar la cantidad
     const handleQuantityChange = (operation) => {
