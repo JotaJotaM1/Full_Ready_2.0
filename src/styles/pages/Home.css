@@ -285,7 +285,6 @@
     padding: 0 50px;
 }
 
-.learMoreStep,
 .learMcta {
     font-weight: 700;
     font-size: 12px;
@@ -294,6 +293,29 @@
     color: #BC00F4;
     padding: 20px 0;
     text-decoration: none;
+}
+.btn-HomeGetDisco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 12px;
+    text-align: center;
+    background-color: #BC00F4;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border: none;
+    margin-top: 70px;
+    font-family: "Syncopate", sans-serif;
+    cursor: pointer;
+}
+.anchorBTNstep{
+    text-decoration: none;
+}
+.iconRowgetDisco{
+    font-size: 35px;
 }
 
 .cnt-callToActionOne {
@@ -412,6 +434,9 @@
 }
 .cnt-stp{
     padding: 20px 0 90px;
+}
+.btnSectiontwo{
+    text-decoration: none;
 }
 
 @media screen and (min-width: 425px) {

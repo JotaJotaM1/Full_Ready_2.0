@@ -21,7 +21,7 @@ const data = [
         img: sliderHuman,
         title: 'CUSTOMER FAVORITE',
         description: 'Chosen by users for ultimate recovery and energy. Try it today!',
-        button: 'SHOP NOW'
+        button: 'SHOP NOW',
     },
 ];
 
@@ -36,11 +36,11 @@ const Slider = () => {
                         <img src={item.img} alt="imgCardSlider" className="imgIcon" />
                         <h2 className="titleCardSlider">{item.title}</h2>
                         <p className="descriptionCardSlider">{item.description}</p>
-                        <button className="btn-shop-nowCardSlider">
-                            <Link to="/shop" className="shop-link">
+                        <Link to="/shop" className="shop-link">
+                            <button className="btn-shop-nowCardSlider">
                                 {item.button}
-                            </Link>
-                        </button>
+                            </button>
+                        </Link>
                     </div>
                 ))}
             </div>

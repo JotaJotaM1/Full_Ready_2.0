@@ -30,11 +30,11 @@ const Home = () => {
                         <p className="pTwo">YOUR PARTY PARTNER</p>
                         <h2 className="pThree">Discover how Full Ready transforms your night and morning.</h2>
                         <div className="cntBtnOne btnH1">
-                            <button>
-                                <Link to="/shop" className="shop-link">
+                            <Link to="/shop" className="shop-link">
+                                <button>
                                     SHOP NOW<i className="bi bi-arrow-right"></i>
-                                </Link>
-                            </button>
+                                </button>
+                            </Link>
                         </div>
                     </div>
                     <div className="cnt-FrasImage">
@@ -76,11 +76,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="cntBtnOne ctnBtn1024">
-                        <button className="btnSectiontwo">
-                            <Link to="/shop" className="shop-link">
+                        <Link to="/shop" className="btnSectiontwo">
+                            <button className="shop-link">
                                 SHOP NOW
-                            </Link>
-                        </button>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -124,35 +124,31 @@ const Home = () => {
                             <img src={step1}></img>
                             <h3 className="titileImgStep">STEP 1</h3>
                             <p className="textImgStep">Take Full Ready before drinking to protect your liver and prep for the night.</p>
-                            <Link to="/discover" className="learMoreStep">
-                                GET FULL READY <i className="bi bi-arrow-right-short"></i>
-                            </Link>
+
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step2}></img>
                             <h3 className="titileImgStep">STEP 2</h3>
                             <p className="textImgStep">Stay energized and hydrated while you party—Full Ready&apos;s got you.</p>
-                            <Link to="/discover" className="learMoreStep">
-                                GET FULL READY <i className="bi bi-arrow-right-short"></i>
-                            </Link>
+
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step3}></img>
                             <h3 className="titileImgStep">STEP 3</h3>
                             <p className="textImgStep">Enjoy every moment without worry. Full Ready keeps you going strong.</p>
-                            <Link to="/discover" className="learMoreStep">
-                                GET FULL READY <i className="bi bi-arrow-right-short"></i>
-                            </Link>
+
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step4}></img>
                             <h3 className="titileImgStep">STEP 4</h3>
                             <p className="textImgStep">Wake up fresh and unstoppable. Full Ready makes mornings easy.</p>
-                            <Link to="/discover" className="learMoreStep">
-                                GET FULL READY <i className="bi bi-arrow-right-short"></i>
-                            </Link>
                         </div>
                     </div>
+                    <Link to="/discover" className="anchorBTNstep">
+                        <button className="btn-HomeGetDisco">
+                            GET FULL READY <i className=" iconRowgetDisco bi bi-arrow-right-short"></i>
+                        </button>
+                    </Link>
                 </div>
             </section>
 
