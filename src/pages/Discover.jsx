@@ -1,6 +1,7 @@
 import '../styles/pages/Discorver.css';
 import frasco3 from '../assets/frasco3.png'
 import FAQAccordion from '../components/FAQacordeon';
+import { Link } from "react-router-dom";
 import {
     step1,
     step2,
@@ -53,7 +54,9 @@ const Discovers = () => {
                         <h2 className='titleTwoDisco'>OWN THE NIGHT, RULE THE MORNING</h2>
                     </div>
                     <div>
-                        <button className="btn-Discover">SHOP FULL READY<i className="arrowDiscover bi-arrow-bar-right"></i></button>
+                        <Link to="/shop" className="btn-Discover">
+                            SHOP FULL READY<i className="arrowDiscover bi-arrow-bar-right"></i>
+                        </Link>
                     </div>
                 </div>
             </section>

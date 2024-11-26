@@ -91,8 +91,9 @@
     color: #BC00F4;
     padding: 20px 0;
 }
-.learMcta{
-    color :white;
+
+.learMcta {
+    color: white;
 }
 
 .titleTwoDisco {
@@ -120,13 +121,15 @@
     padding: 8.49px 33.96px 8.49px 33.96px;
     border: 0.7px solid white;
     margin-bottom: 40px;
+    text-decoration: none;
 }
 
 .arrowDiscover {
     font-size: 27px;
     padding-left: 15px;
 }
-.cnt-titleTwoDisco{
+
+.cnt-titleTwoDisco {
     margin-top: 70px;
 }
 
@@ -155,6 +158,7 @@
     .cnt-imgStepp {
         background-color: transparent;
     }
+
     .cnt-bannerImgOne {
         background-size: 95%, 22%, 12%;
         background-position-x: center, 95%, 9%;
@@ -203,11 +207,13 @@
     .accordion-container {
         width: 80%;
     }
+
     .cnt-bannerImgOne {
         background-size: 57%, 10%, 7%;
         background-position-x: center, 76%, 25%;
         background-position-y: center, 93%, 20%;
     }
+
     .imgBannderOne {
         width: 240px;
     }
