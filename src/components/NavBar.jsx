@@ -28,11 +28,14 @@ const NavBar = () => {
                         <li className={location.pathname === '/shop' ? 'active' : ''}>
                             <Link to="/shop" onClick={handleLinkClick}>SHOP</Link>
                         </li>
-                        <li className={location.pathname === '/find-full-ready' ? 'active' : ''}>
+                        {/* <li className={location.pathname === '/find-full-ready' ? 'active' : ''}>
                             <Link to="/find-full-ready" onClick={handleLinkClick}>FIND FULL READY</Link>
                         </li>
                         <li className={location.pathname === '/explore-more' ? 'active' : ''}>
                             <Link to="/explore-more" onClick={handleLinkClick}>EXPLORE MORE</Link>
+                        </li> */}
+                        <li className={location.pathname === '/ambassadors' ? 'active' : ''}>
+                            <Link to="/ambassadors" onClick={handleLinkClick}>AMBASSADORS</Link>
                         </li>
                     </ul>
                 </div>

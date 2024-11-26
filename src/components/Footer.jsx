@@ -10,8 +10,8 @@ const Footer = () => {
                     <li className='li-Footer'><Link to="/home">HOME</Link></li>
                     <li className='li-Footer'><Link to="/discover">DISCOVER</Link></li>
                     <li className='li-Footer'><Link to="/shop">SHOP</Link></li>
-                    <li className='li-Footer'><Link to="/find-full-ready">FIND FULL READY</Link></li>
-                    <li className='li-Footer'><Link to="/explore-more">EXPLORE MORE</Link></li>
+                    {/* <li className='li-Footer'><Link to="/find-full-ready">FIND FULL READY</Link></li>
+                    <li className='li-Footer'><Link to="/explore-more">EXPLORE MORE</Link></li> */}
                     <li className='li-Footer'><Link to="/ambassadors">AMBASSADORS</Link></li>
                 </ul>
             </div>

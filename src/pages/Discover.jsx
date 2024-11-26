@@ -26,7 +26,7 @@ const Discovers = () => {
                 <div className="cnt-stp">
                     <div>
                         <h2 className="titlleStep">FOLLOW THESE SIMPLE STEPS FOR THE BEST RESULTS</h2>
-                        <p className="textStep">With Full Ready, you don’t have to choose between a great night and a productive morning. Follow these simple steps to enjoy every moment.</p>
+                        <p className="textStep">With Full Ready, you don&apos;t have to choose between a great night and a productive morning. Follow these simple steps to enjoy every moment.</p>
                     </div>
                     <div className="cnt-FatherImgStep">
                         <div className="cnt-imgStepp">
@@ -37,7 +37,7 @@ const Discovers = () => {
                         <div className="cnt-imgStepp">
                             <img src={step2}></img>
                             <h3 className="titileImgStep">STEP 2</h3>
-                            <p className="textImgStep">Stay energized and hydrated while you party—Full Ready’s got you.</p>
+                            <p className="textImgStep">Stay energized and hydrated while you party—Full Ready&apos;s got you.</p>
                         </div>
                         <div className="cnt-imgStepp">
                             <img src={step3}></img>
