@@ -21,7 +21,7 @@ const imageData = [
     { id: 8, background: image8AmbaGrid, alt: 'Ambassador 8' },
 ];
 
-const AmbassadorsGrid = () => {
+const AmbassadorsGridOne = () => {
     return (
         <div className="ambassadors-grid">
             {imageData.map((item) => (
@@ -36,4 +36,4 @@ const AmbassadorsGrid = () => {
     );
 };
 
-export default AmbassadorsGrid;
+export default AmbassadorsGridOne;

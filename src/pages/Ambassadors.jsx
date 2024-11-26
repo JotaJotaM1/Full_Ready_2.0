@@ -1,4 +1,5 @@
-import AmbassadorsGridOne from "../components/AbassadorsGridOne";
+import AmbassadorsGridOne from "../components/AmbassadorsGridOne";
+import AmbassadorsGridTwo from "../components/AmbassadorGridTwo";
 
 const Ambassadors = () => {
     return (
@@ -29,7 +30,7 @@ const Ambassadors = () => {
                             <p className="textPerks">COMPETITIONS AND PRIZES</p>
                         </div>
                         <div className="Perks-Items">
-                            <i className="iconPerks bi bi-instagram"></i>
+            <i className="iconPerks bi bi-instagram"></i>
                             <p className="textPerks">PRIVATE ACCESS</p>
                         </div>
                         <div className="Perks-Items">
@@ -47,6 +48,7 @@ const Ambassadors = () => {
                     </div>
                 </div>
             </section>
+            < AmbassadorsGridTwo />
         </main>
     );
 };
