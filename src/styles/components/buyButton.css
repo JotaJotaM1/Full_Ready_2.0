@@ -1,0 +1,11 @@
+.shopify-buy-button-container * {
+    all: unset;
+    box-sizing: border-box;
+}
+
+.shopify-buy-button-container {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+}

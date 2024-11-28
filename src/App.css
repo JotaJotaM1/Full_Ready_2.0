@@ -1,8 +1,0 @@
-#root {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 1770px;
-  margin: 0 auto;
-}
