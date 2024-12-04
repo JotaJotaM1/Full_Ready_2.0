@@ -5,7 +5,9 @@ const Shop = () => {
 
     return (
         <main>
-            <BuyButton />
+            <div className='cnt-BuyButton'>
+                <BuyButton />
+            </div>
         </main>
 
     );
