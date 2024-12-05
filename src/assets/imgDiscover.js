@@ -6,6 +6,7 @@ import image5Acordeon from './img5Acordeon.png';
 import image6Acordeon from './img6Acordeon.png';
 
 
+
 export {
     image1Acordeon,
     image2Acordeon,

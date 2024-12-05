@@ -7,6 +7,8 @@ import {
     step2,
     step3,
     step4,
+    BolasGrupo1,
+    BolasGrupo2,
 } from '../assets/imgHome';
 
 
@@ -14,13 +16,17 @@ const Discovers = () => {
     return (
         <main>
             <section>
-                <div className='cnt-fatherSectionOne'>
-                    <h1 className='titleH1Discover'>DISCOVER FULL READY</h1>
-                    <div className='cnt-bannerImgOne'>
-                        <img className='imgBannderOne' src={frasco3}></img>
+                <div className="parallax-container">
+                    <h1 className="magic-text">THE MAGIC<br></br>FORMULA</h1>
+                    <div className="parallax-layer">
+                        <img className="imgBannderOne" src={frasco3} alt="Full Ready" />
                     </div>
-                    <FAQAccordion />
+                    <div className="parallax-layer spheres">
+                        <img src={BolasGrupo2} className="shepereOne" />
+                        <img src={BolasGrupo1} className="shepereTwo" />
+                    </div>
                 </div>
+                <FAQAccordion />
             </section>
             <section>
                 <div className="cnt-stp">

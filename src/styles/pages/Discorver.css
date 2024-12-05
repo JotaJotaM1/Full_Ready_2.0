@@ -1,31 +1,44 @@
-.titleH1Discover {
-    text-align: center;
-    color: black;
-    padding: 40px 0;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 42px;
-}
-
-.cnt-bannerImgOne {
+.parallax-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 96%;
-    margin: 0 auto;
-    background-image: url('../../../src/assets/theMagic.png'), url('../../../src/assets/BolasGrupo1.png'), url('../../../src/assets/BolasGrupo2.png');
-    background-repeat: no-repeat;
-    background-size: contain, 34%, 17%;
-    background-position-x: center, 131%, 2%;
-    background-position-y: center, 74%, 44%;
-    margin-bottom: 40px;
-    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.3));
+    position: relative;
+    margin-top: 70px;
+}
+
+.magic-text {
+    position: absolute;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background: linear-gradient(to right, #f5cfd3, #e1cbf1);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Syncopate", serif;
+    font-size: clamp(50px, 13vw, 10rem);
+}
+
+.shepereTwo {
+    position: relative;
+    top: -4rem;
+    left: 8rem;
+    width: 70px;
+}
+
+.shepereOne {
+    position: relative;
+    top: -14rem;
+    right: 8rem;
+    width: 50px;
 }
 
 .imgBannderOne {
     width: 166px;
     transform: rotate(342deg);
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, .3));
 }
 
 .cnt-stp,
@@ -134,6 +147,27 @@
 }
 
 @media screen and (min-width: 768px) {
+    .imgBannderOne {
+        position: relative;
+        bottom: -45px;
+        width: 182px;
+        transform: rotate(342deg);
+    }
+
+    .shepereOne {
+        top: -17rem;
+        right: 16rem;
+        width: 68px;
+        opacity: 0.8;
+    }
+
+    .shepereTwo {
+        top: -5rem;
+        left: 16rem;
+        width: 136px;
+        opacity: 0.8;
+    }
+
     .titlleStep {
         font-size: 32px;
         line-height: 44.8px;
@@ -159,15 +193,14 @@
         background-color: transparent;
     }
 
-    .cnt-bannerImgOne {
-        background-size: 95%, 22%, 12%;
-        background-position-x: center, 95%, 9%;
-        background-position-y: center, 97%, 42%;
-    }
-
 }
 
 @media screen and (min-width: 1024px) {
+    .shepereOne {
+        top: -14rem;
+        right: 19rem;
+        width: 87px;
+    }
     .titlleStep {
         padding: 60px 133px 0;
     }
@@ -191,6 +224,15 @@
 }
 
 @media screen and (min-width: 1440px) {
+    .shepereOne {
+        top: -23rem;
+        right: 27rem;
+        width: 115px;
+    }
+    .shepereTwo {
+        left: 24rem;
+        width: 181px;
+    }
     .titlleStep {
         max-width: 755px;
     }
@@ -206,12 +248,6 @@
 
     .accordion-container {
         width: 80%;
-    }
-
-    .cnt-bannerImgOne {
-        background-size: 57%, 10%, 7%;
-        background-position-x: center, 76%, 25%;
-        background-position-y: center, 93%, 20%;
     }
 
     .imgBannderOne {

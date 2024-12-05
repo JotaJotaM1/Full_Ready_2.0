@@ -13,6 +13,8 @@ import ctaTwoThree from './ctaTwoThree.png';
 import arrowStepOne from './arrowStepOne.png';
 import frasco3 from '../assets/frasco3.png';
 import image7 from '../assets/image7.png';
+import BolasGrupo1 from './BolasGrupo1.png'
+import BolasGrupo2 from './BolasGrupo2.png'
 
 export {
     image3,
@@ -30,4 +32,6 @@ export {
     arrowStepOne,
     frasco3,
     image7,
+    BolasGrupo1,
+    BolasGrupo2,
 };
