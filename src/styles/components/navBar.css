@@ -4,6 +4,13 @@ header {
     background-size: cover;
 }
 
+/* Estilos específicos para "home" */
+.navbar.home-page {
+    position: absolute;
+    background-color: transparent;
+    color: #ffffff;
+}
+
 .navbar {
     width: 100%;
     background-color: #333;
@@ -41,7 +48,7 @@ header {
     display: none;
 }
 
-.cnt-fixed{
+.cnt-fixed {
     position: fixed;
 }
 
@@ -55,21 +62,29 @@ header {
 @media (max-width: 1023px) {
 
     .nav_items {
-        height: 100%;
+        height: 100vh;
         position: absolute;
-        top: 80px;
+        top: 0;
         left: 0;
         background: black;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 70%;
         transform: translateX(-100%);
         transition: 0.3s ease all;
         z-index: 999;
+        max-width: 350px;
     }
 
     .nav_items.open {
+        
         transform: translateX(0) !important
+    }
+    .cnt-Border{
+        height: 100vh;
+        border: 1px solid #bcbcbc;
+        margin: 30px;
+        border-radius: 13px;
     }
 
     .nav_toggle {

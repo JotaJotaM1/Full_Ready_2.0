@@ -1,6 +1,7 @@
 .sectionOne {
     background: linear-gradient(135deg, #5200ff, #ff00ff);
     background-size: cover;
+    padding-top: 80px;
 }
 
 .cnt-One {

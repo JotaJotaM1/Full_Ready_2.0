@@ -11,15 +11,19 @@ const NavBar = () => {
         setIsOpen(false);
     };
 
+    const navbarClass = location.pathname === '/home' ? 'navbar home-page' : 'navbar';
+
     return (
         <header>
-            <div className="navbar">
+            <div className={navbarClass}>
                 <div className="nav_logo">
                     <Link to="/home">
                         <img src={logo} alt="Logo" />
                     </Link>
                 </div>
+
                 <div className={`nav_items ${isOpen ? "open" : ""}`}>
+                    <div className='cnt-Border'>
                     <ul>
                         <li className={location.pathname === '/home' ? 'active' : ''}>
                             <Link to="/home" onClick={handleLinkClick}>HOME</Link>
@@ -40,7 +44,10 @@ const NavBar = () => {
                             <Link to="/ambassadors" onClick={handleLinkClick}>AMBASSADORS</Link>
                         </li>
                     </ul>
+                    </div>
+                    
                 </div>
+
                 <div className={`nav_toggle ${isOpen ? "open" : ""}`} onClick={() => setIsOpen(!isOpen)}>
                     <span></span>
                     <span></span>
