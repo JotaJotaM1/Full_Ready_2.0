@@ -37,6 +37,7 @@ header {
     align-items: center;
     gap: 113px;
     background-color: transparent;
+    flex-direction: row-reverse;
 }
 
 .nav_logo {
@@ -68,12 +69,24 @@ header {
 .cnt-fixed {
     position: fixed;
 }
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+}
 
 @media screen and (min-width: 768px) {
 
     .navbar {
         gap: 478px;
     }
+
 }
 
 @media (max-width: 1023px) {
@@ -100,9 +113,9 @@ header {
     }
 
     .cnt-Border {
-        height: 100vh;
+        height: 90vh;
         border: 1px solid #bcbcbc;
-        margin: 15px;
+        margin: 67px 15px 15px;
         border-radius: 13px;
     }
 
@@ -138,6 +151,7 @@ header {
 @media screen and (min-width: 1024px) {
 
     .navbar {
+        flex-direction: row;
         gap: 0;
     }
 

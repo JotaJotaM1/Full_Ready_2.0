@@ -95,13 +95,13 @@
     position: absolute;
 }
 
-.cnt-ballHome{
+/* .cnt-ballHome{
     background-image: url(/src/assets/ballHomeBg.png);
     background-repeat: no-repeat;
     background-size: 414px;
     background-position-x: 6rem;
     background-position-y: -1rem;
-}
+} */
 
 .cnt-Two {
     padding: 120px 0 16rem;    

@@ -18,7 +18,6 @@
     background-repeat: no-repeat;
     background-position-x: 50px;
     background-position-y: 40px;
-
 }
 
 .texto {
@@ -53,7 +52,7 @@
     font-family: 'FivoSans';
     color: black;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .nombre {

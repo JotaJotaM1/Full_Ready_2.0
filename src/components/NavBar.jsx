@@ -28,6 +28,15 @@ const NavBar = () => {
                     </div>
 
                     <div className={`nav_items ${isOpen ? "open" : ""}`}>
+                        {/* Botón de cerrar solo visible en tamaños pequeños */}
+                        {isOpen && (
+                            <button
+                                className="close-btn"
+                                onClick={() => setIsOpen(false)}
+                            >
+                                &times;
+                            </button>
+                        )}
                         <div className='cnt-Border'>
                             <ul>
                                 <li className={location.pathname === '/home' ? 'active' : ''}>
@@ -39,18 +48,11 @@ const NavBar = () => {
                                 <li className={location.pathname === '/shop' ? 'active' : ''}>
                                     <Link to="/shop" onClick={handleLinkClick}>SHOP</Link>
                                 </li>
-                                {/* <li className={location.pathname === '/find-full-ready' ? 'active' : ''}>
-                            <Link to="/find-full-ready" onClick={handleLinkClick}>FIND FULL READY</Link>
-                        </li>
-                        <li className={location.pathname === '/explore-more' ? 'active' : ''}>
-                            <Link to="/explore-more" onClick={handleLinkClick}>EXPLORE MORE</Link>
-                        </li> */}
                                 <li className={location.pathname === '/ambassadors' ? 'active' : ''}>
                                     <Link to="/ambassadors" onClick={handleLinkClick}>AMBASSADORS</Link>
                                 </li>
                             </ul>
                         </div>
-
                     </div>
 
                     <div className={`nav_toggle ${isOpen ? "open" : ""}`} onClick={() => setIsOpen(!isOpen)}>
@@ -59,9 +61,7 @@ const NavBar = () => {
                         <span></span>
                     </div>
                 </div>
-
             </div>
-
         </header>
     );
 };
