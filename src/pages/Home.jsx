@@ -43,6 +43,8 @@ const Home = () => {
                         </div>
                         <div>
                             <img className="image7" src={image7} alt="image7"></img>
+                            {/* <img className="bolaHome" src={BolaHome} alt="imge prueba"></img> */}
+
                         </div>
                     </div>
                 </div>
@@ -50,7 +52,7 @@ const Home = () => {
 
             {/* Section OTwo */}
 
-            <section>
+            <section className="cnt-ballHome">
                 <div className="cnt-Two">
                     <div className="cnt-h2">
                         <h2>THE NATURAL, EFFECTIVE, AND CERTIFIED BENEFITS OF FULL READY</h2>

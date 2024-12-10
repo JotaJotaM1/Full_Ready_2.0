@@ -95,10 +95,15 @@
     position: absolute;
 }
 
+.cnt-ballHome{
+    background-image: url(/src/assets/ballHomeBg.png);
+    background-repeat: no-repeat;
+    background-size: 414px;
+    background-position-x: 6rem;
+    background-position-y: -1rem;
+}
 
 .cnt-Two {
-    padding: 50px 0 16rem;
-    background-color: white;
     padding: 120px 0 16rem;    
 }
 
@@ -453,6 +458,11 @@
         line-height: 21.92px;
         letter-spacing: 11px;
 
+    }
+    .cnt-ballHome{
+        background-size: 500px;
+        background-position-x: 23rem;
+        background-position-y: -2rem;
     }
 
     .titleOne {
