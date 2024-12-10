@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const location = useLocation(); // Hook para obtener la ubicación actual
+    const location = useLocation();
 
     const handleLinkClick = () => {
         setIsOpen(false);
@@ -16,6 +16,10 @@ const NavBar = () => {
     return (
         <header>
             <div>
+                <div
+                    className={`overlay ${isOpen ? 'show' : ''}`}
+                    onClick={() => setIsOpen(false)}
+                ></div>
                 <div className={navbarClass}>
                     <div className="nav_logo">
                         <Link to="/home">

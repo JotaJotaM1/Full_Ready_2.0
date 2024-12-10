@@ -1,25 +1,28 @@
 // Importamos React y el hook useState para manejar el estado
 import { useState } from 'react';
 import '../styles/components/sliderComments.css';
-import Camilo from '../assets/camilo.png'
-import Stars from '../assets/Stars.png'
+import Camilo from '../assets/camilo.png';
+import Camila from '../assets/Camila.jpg';
+import John from '../assets/John.jpg';
+import Michael from '../assets/Michael.jpg'
+import Stars from '../assets/Stars.png';
 
 // Creamos un arreglo con los comentarios que queremos mostrar en el carrusel
 const comentarios = [
     {
         id: 1,
-        imagen: Camilo,
+        imagen: Michael,
         descripcion:'Full Ready has completely transformed my mornings. I wake up feeling refreshed and ready to tackle the day!',
         Estrella: Stars,
-        nombre: "Roger Murillo",
+        nombre: "Michael Murillo",
         profesionEdad: "34, SEO"
     },
     {
         id: 2,
-        imagen: Camilo,
+        imagen: Camila,
         descripcion: 'I love how natural it is. No weird chemicals, just pure energy and recovery in a bottle',
         Estrella: Stars,
-        nombre: "Andrea L",
+        nombre: "Camila L",
         profesionEdad: "29, Fitness Enthusiast"
     },
     {
@@ -28,6 +31,14 @@ const comentarios = [
         descripcion: 'The perfect solution for long nights and busy mornings. Full Ready is my new go-to!',
         Estrella: Stars,
         nombre: "Jorge M",
+        profesionEdad: "40, Marketing Manager"
+    },
+    {
+        id: 4,
+        imagen: John,
+        descripcion: 'The perfect solution for long nights and busy mornings. Full Ready is my new go-to!',
+        Estrella: Stars,
+        nombre: "John M",
         profesionEdad: "40, Marketing Manager"
     }
 ];
