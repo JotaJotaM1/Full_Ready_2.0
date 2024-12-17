@@ -21,15 +21,21 @@ header {
     opacity: 1;
 }
 
+.cnt-navbarFlex {
+    display: flex;
+    justify-content: center;
+}
+
 
 .navbar.home-page {
     position: absolute;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.3);
     color: #ffffff;
 }
 
 .navbar {
-    width: 100%;
+    width: 95%;
+    max-width: 1900px;
     background-color: #333;
     height: 85px;
     display: flex;
@@ -38,6 +44,8 @@ header {
     gap: 113px;
     background-color: transparent;
     flex-direction: row-reverse;
+    margin: 20px;
+    border-radius: 12px;
 }
 
 .nav_logo {
@@ -45,6 +53,8 @@ header {
     font-size: 20px;
     color: white;
 }
+
+
 
 .nav_items ul {
     display: flex;
@@ -69,6 +79,7 @@ header {
 .cnt-fixed {
     position: fixed;
 }
+
 .close-btn {
     position: absolute;
     top: 10px;
@@ -160,9 +171,10 @@ header {
         justify-content: center;
         align-items: center;
     }
+    
 
     .nav_items ul {
-        width: 800px;
+        width: 500px;
         display: flex;
         flex-direction: row;
         padding-left: 0;
@@ -201,4 +213,5 @@ header {
     .nav_items ul li:hover::after {
         width: 100%;
     }
+
 }

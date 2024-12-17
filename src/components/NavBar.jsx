@@ -15,7 +15,7 @@ const NavBar = () => {
 
     return (
         <header>
-            <div>
+            <div className='cnt-navbarFlex'>
                 <div
                     className={`overlay ${isOpen ? 'show' : ''}`}
                     onClick={() => setIsOpen(false)}
