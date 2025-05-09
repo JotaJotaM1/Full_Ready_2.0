@@ -51,6 +51,9 @@ const NavBar = () => {
                                 <li className={location.pathname === '/ambassadors' ? 'active' : ''}>
                                     <Link to="/ambassadors" onClick={handleLinkClick}>AMBASSADORS</Link>
                                 </li>
+                                <li className={location.pathname === '/distributors' ? 'active' : ''}>
+                                    <Link to="/distributors" onClick={handleLinkClick}>DISTRIBUTORS</Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
