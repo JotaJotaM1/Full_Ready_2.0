@@ -23,11 +23,36 @@ const Footer = () => {
                     </div>
                     <div className='cnt-UlSocialFooter'>
                         <ul>
-                            <li><i className="bi bi-facebook"></i></li>
-                            <li><i className="bi bi-twitter-x"></i></li>
-                            <li><i className="bi bi-instagram"></i></li>
-                            <li><i className="bi bi-linkedin"></i></li>
-                            <li><i className="bi bi-tiktok"></i></li>
+                            <li>
+                                <a
+                                    href="https://www.facebook.com/share/1EddbWbd3T/?mibextid=wwXIfr"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="social-link"
+                                >
+                                    <i className="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/officialfullready?igsh=MW03Nzc2dmgxNzNvbQ=="
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="social-link"
+                                >
+                                    <i className="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.tiktok.com/@fullreadyofficial?_t=ZP-8wFARRI0O59&_r=1"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="social-link"
+                                >
+                                    <i className="bi bi-tiktok"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div className="divider"></div>

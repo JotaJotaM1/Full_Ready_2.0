@@ -64,16 +64,16 @@ const TapDistributors = () => {
                 {activeTab === 'venezuela' && (
                     <DistributorCard
                         country="Venezuela"
-                        email="distribuidores.ve@tudominio.com"
-                        phone="+58 412-1234567"
+                        email="zentecgrupoempresarial@gmail.com"
+                        phone="+57 3223708560"
                         translation={translations.venezuela}
                     />
                 )}
                 {activeTab === 'usa' && (
                     <DistributorCard
                         country="USA"
-                        email="distributors.usa@tudomain.com"
-                        phone="+1 305-1234567"
+                        email="Fullready@iroyaltycs.com"
+                        phone="+1 954 7908095"
                         translation={translations.usa}
                     />
                 )}
